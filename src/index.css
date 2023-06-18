@@ -1,0 +1,19 @@
+:root {
+  --background: #3b383f;
+  --white: #ffffff;
+  --risingSun: #d14043;
+  --maxWidth: 1200px;
+  --h1: 2.2rem;
+  --h2: 2.6rem;
+  --p: 1.6rem;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 62.5%;
+}

@@ -1,0 +1,37 @@
+header {
+    width: 100%;
+    background: var(--background);
+}
+
+.nav {
+    width: 100%;
+    max-width: var(--maxWidth);
+    height: 70px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+.navLinks li a:hover{
+    text-decoration: underline;
+    color: var(--risingSun);
+    transition: .3s ease-in-out;
+}
