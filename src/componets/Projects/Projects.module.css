@@ -1,0 +1,8 @@
+.projects {
+    width: 100%;
+}
+
+.projects h2 {
+    font-size: var(--subHeading);
+    color: var(--risingSun);
+}

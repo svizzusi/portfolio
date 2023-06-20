@@ -5,10 +5,16 @@ import style from './SocialIcons.module.css'
 
 const SocialIcons = () => {
     return (
-        <div>
-            <FiLinkedin className={style.social}/>
-            <AiOutlineGithub className={style.social}/>
-            <FiTwitter className={style.social}/>
+        <div className={style.socialSection}>
+            <div className={style.socialContainer}>
+                <FiLinkedin className={style.social}/>
+            </div>
+            <div className={style.socialContainer}>
+                <AiOutlineGithub className={style.social}/>
+            </div>
+            <div className={style.socialContainer}>
+                <FiTwitter className={style.social}/>
+            </div>
         </div>
     )
 }

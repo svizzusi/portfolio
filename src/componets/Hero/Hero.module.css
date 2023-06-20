@@ -10,18 +10,18 @@
 }
 
 .heroText h2 {
-    font-size: var(--h2);
+    font-size: var(--heading);
     color: var(--white);
     margin-bottom: 20px;
 }
 
 .heroText h2 > span {
-    font-size: var(--h2);
+    font-size: var(--heading);
     color: var(--risingSun);
 }
 
 .heroText h1 {
-    font-size: var(--h1);
+    font-size: var(--subHeading);
     color: var(--white);
     padding: 10px 0;
 }
