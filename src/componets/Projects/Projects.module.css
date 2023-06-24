@@ -1,8 +1,73 @@
 .projects {
     width: 100%;
+    max-width: var(--maxWidth);
+    margin: auto;
 }
 
 .projects h2 {
-    font-size: var(--subHeading);
+    font-size: var(--sectionHeading);
     color: var(--risingSun);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projectsSection {
+    display: flex;
+    flex-direction: column;
+    background: var(--darkGray);
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;;
+}
+
+.projectBox {
+    background: var(--lightGray);
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.projectBox h3 {
+    font-size: var(--subHeading);
+    color: var(--white);
+    padding-block: 20px;
+}
+
+.projectBox p {
+    font-size: var(--p);
+    color: var(--white);
+    padding-block: 20px;
+}
+
+.lang {
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ gap: 10px;
+ padding-block: 20px;
+}
+
+.lang span {
+    font-size: var(--p);
+    border: 2px solid var(--risingSun);
+    color: var(--white);
+    padding: 12px 16px;
+}
+
+.projectBtns {
+    display: flex;
+    gap: 20px;
+}
+
+.projectBtns button {
+    color: var(--white);
+    background: var(--risingSun);
+    padding: 16px 24px;
+    outline: none;
+    border: none;
 }

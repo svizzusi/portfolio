@@ -1,10 +1,13 @@
 :root {
   --background: #3b383f;
+  --lightGray: #47444a;
+  --darkGray: #302e34;
   --white: #e3e1d4;
   --black: #070707;
   --risingSun: #d14043;
   --maxWidth: 1200px;
   --subHeading: 3.2rem;
+  --sectionHeading: 4.2rem;
   --heading: 5.6rem;
   --p: 1.8rem;
   --links: 1.8rem;
