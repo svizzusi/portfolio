@@ -19,7 +19,7 @@ const Projects = () => {
                             lang1={project.lang1}
                             lang2={project.lang2}
                             lang3={project.lang3}
-                            lang4={project.lang4}
+                            dataAOS={project.dataAOS}
                         />
                     ))
                 }

@@ -1,0 +1,65 @@
+.aboutContainer {
+    width: 100%;
+    background: var(--darkGray);
+    
+}
+
+.aboutSection {
+    width: 100%;
+    max-width: var(--maxWidth);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.aboutImage {
+    width: 50%;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.aboutText {
+    background: var(--lightGray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.aboutText h2{
+    font-size: var(--subHeading);
+    color: var(--white);
+    padding-block: 20px;
+}
+
+.aboutText span{
+    font-size: var(--subHeading);
+    color: var(--risingSun);
+    padding-block: 20px;
+}
+
+.aboutText p{
+    font-size: var(--p);
+    color: var(--white);
+    padding-block: 20px;
+}
+
+.aboutText button{
+    color: var(--white);
+    background: var(--risingSun);
+    padding: 16px 24px;
+    outline: none;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.aboutText button:hover {
+    border: 1px solid var(--white);
+}

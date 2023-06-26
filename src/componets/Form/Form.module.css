@@ -1,0 +1,76 @@
+/* .formContainer {
+    width: 100%;
+    max-width: var(--maxWidth);
+    background: var(--darkGray);
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 450px;
+    padding: 30px;
+    gap: 30px;
+}
+
+.formTextSection {
+    background: var(--lightGray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+.formTextSection h3 {
+    font-size: var(--subHeading);
+    color: var(--white);
+    padding: 20px;
+}
+
+.formTextSection p {
+    font-size: var(--p);
+    color: var(--white);
+    padding: 20px;
+}
+
+
+.formForm {
+    background: var(--lightGray);
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.formForm input, .formForm textarea {
+    margin: 20px 0;
+    background: var(--white);
+    padding: 8px 10px;
+    border: 2px solid var(--risingSun);
+    outline: none;
+    color: var(--background);
+}
+
+.formForm textarea {
+    height: 100px;
+    outline: none;
+}
+
+.formForm button {
+    color: var(--white);
+    background: var(--risingSun);
+    padding: 16px 24px;
+    width: fit-content;
+    margin: 20px 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.formForm button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+} */

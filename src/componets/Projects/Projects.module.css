@@ -14,22 +14,32 @@
 .projectsSection {
     display: flex;
     flex-direction: column;
-    background: var(--darkGray);
 }
 
 .projectsContainer {
     display: flex;
     justify-content: space-between;
-    margin: 20px;;
+    margin: 20px 0;
+    background: var(--darkGray);
+    padding: 30px;
+    gap: 30px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.projectImage {
+    width: 50%;
+    border-radius: 8px;
 }
 
 .projectBox {
     background: var(--lightGray);
-    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    width: 50%;
+    border-radius: 8px;
 }
 
 .projectBox h3 {
@@ -57,11 +67,13 @@
     border: 2px solid var(--risingSun);
     color: var(--white);
     padding: 12px 16px;
+   
 }
 
 .projectBtns {
     display: flex;
     gap: 20px;
+    
 }
 
 .projectBtns button {
@@ -70,4 +82,11 @@
     padding: 16px 24px;
     outline: none;
     border: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    width: fit-content;
+}
+
+.projectBtns button:hover {
+    border: 1px solid var(--white);
 }

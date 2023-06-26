@@ -1,6 +1,6 @@
 .main {
     width: 100%;
-    height: calc(95vh - 70px);
+    height: calc(94vh - 70px);
     max-width: var(--maxWidth);
     margin: auto;
 }
@@ -10,19 +10,25 @@
 }
 
 .heroText h2 {
-    font-size: var(--heading);
+    font-size: var(--subHeading);
     color: var(--white);
     margin-bottom: 20px;
 }
 
 .heroText h2 > span {
-    font-size: var(--heading);
+    font-size: var(--subHeading);
     color: var(--risingSun);
 }
 
 .heroText h1 {
-    font-size: var(--subHeading);
+    font-size: var(--heading);
     color: var(--white);
+    padding: 10px 0;
+}
+
+.heroText h1 > span {
+    font-size: var(--heading);
+    color: var(--risingSun);
     padding: 10px 0;
 }
 
