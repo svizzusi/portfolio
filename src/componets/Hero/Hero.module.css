@@ -1,27 +1,30 @@
 .main {
     width: 100%;
-    height: calc(94vh - 70px);
+    height: 94vh;
     max-width: var(--maxWidth);
     margin: auto;
 }
 
 .heroText {
-    padding: 220px 0 20px 0;
+    padding: 300px 0 20px 0;
 }
 
 .heroText h2 {
     font-size: var(--subHeading);
+    font-weight: 300;
     color: var(--white);
     margin-bottom: 20px;
 }
 
 .heroText h2 > span {
     font-size: var(--subHeading);
+    font-weight: 300;
     color: var(--risingSun);
 }
 
 .heroText h1 {
     font-size: var(--heading);
+    font-weight: 400;
     color: var(--white);
     padding: 10px 0;
 }

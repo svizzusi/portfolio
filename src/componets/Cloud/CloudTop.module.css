@@ -28,3 +28,81 @@
         left: 110%;
     }
 }
+
+.cloudDownArrow1 {
+    animation-name: cloudDownArrow1;
+    position: absolute;
+    top: 34vh;
+    font-size: 8.0rem;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: var(--risingSun);
+}
+
+@keyframes cloudDownArrow1 {
+    0% {
+        opacity: 0;
+        left: -25%;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 0;
+        left: 120%;
+    }
+}
+
+.cloudDownArrow2 {
+    animation-name: cloudDownArrow2;
+    position: absolute;
+    top: 26vh;
+    font-size: 8.0rem;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: var(--risingSun);
+}
+
+@keyframes cloudDownArrow2 {
+    0% {
+        opacity: 0;
+        left: -19%;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    52% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 0;
+        left: 126%;
+    }
+}

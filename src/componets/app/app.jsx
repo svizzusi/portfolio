@@ -1,7 +1,8 @@
 import About from "../About/About"
 import CloudBottom from "../Cloud/CloudBottom"
 import CloudTop from "../Cloud/CloudTop"
-// import Form from "../Form/Form"
+import Form from "../Form/Form"
+import Footer from "../Footer/Footer"
 import Hero from "../Hero/Hero"
 import NavBar from "../NavBar/NavBar"
 import Projects from "../Projects/Projects"
@@ -22,7 +23,8 @@ const App = () => {
         <CloudBottom />
         <Projects />
         <About />
-        {/* <Form /> */}
+        <Form />
+        <Footer />
     </>
   )
 }

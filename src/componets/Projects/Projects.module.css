@@ -2,6 +2,7 @@
     width: 100%;
     max-width: var(--maxWidth);
     margin: auto;
+    
 }
 
 .projects h2 {
@@ -9,6 +10,32 @@
     color: var(--risingSun);
     margin-bottom: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.projectDownArrow {
+    animation-name: projectDownArrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    color: var(--white);
+}
+
+@keyframes projectDownArrow {
+    0% {
+        opacity: 1;
+    }
+
+
+    50% {
+        opacity: 0.3;
+    }
+    
+    100% {
+        opacity: 1;
+    }
 }
 
 .projectsSection {

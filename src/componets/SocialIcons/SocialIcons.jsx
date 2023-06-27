@@ -1,5 +1,5 @@
 import { FiLinkedin, FiTwitter } from 'react-icons/fi';
-import { AiOutlineGithub } from 'react-icons/Ai';
+import { AiOutlineGithub } from 'react-icons/ai';
 import style from './SocialIcons.module.css'
 
 

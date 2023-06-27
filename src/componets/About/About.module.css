@@ -1,7 +1,10 @@
 .aboutContainer {
     width: 100%;
-    background: var(--darkGray);
-    
+    height: 500px;
+    background-image: url(../../assets/images/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .aboutSection {
@@ -12,21 +15,26 @@
     align-items: center;
     padding: 30px;
     gap: 30px;
+    justify-content: center;
 }
 
 .aboutImage {
-    width: 50%;
+    width: 450px;
     height: 450px;
     border-radius: 8px;
 }
 
 .aboutText {
-    background: var(--lightGray);
+    background: rgba(14, 13, 13, 0.59);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    width: 50%;
+    width: 450px;
     height: 450px;
     border-radius: 8px;
 }
@@ -58,6 +66,9 @@
     width: fit-content;
     cursor: pointer;
     transition: .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .aboutText button:hover {
