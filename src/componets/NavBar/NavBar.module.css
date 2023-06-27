@@ -8,6 +8,7 @@ header {
     border: 1px solid rgba(49, 46, 46, 0.02);
     position: fixed;
     z-index: 50;
+    padding: 0 20px;
 }
 
 .nav {
@@ -50,11 +51,5 @@ Media Queries
 
 
 @media screen and (max-width:1200px) {
-    .nav {
-        padding: 0 20px;
-    }
-}
-
-@media screen and (max-width:768px) {
 
 }
