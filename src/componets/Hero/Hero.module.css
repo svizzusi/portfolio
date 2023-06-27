@@ -3,6 +3,7 @@
     height: 94vh;
     max-width: var(--maxWidth);
     margin: auto;
+    padding: 0 20px;
 }
 
 .heroText {
@@ -39,4 +40,39 @@
     font-size: var(--p);
     color: var(--white);
     max-width: 550px;
+}
+
+
+/* ****************************************************************
+Media Queries
+*****************************************************************
+*****************************************************************/
+
+
+@media screen and (max-width: 528px) {
+
+    .heroText {
+        padding: 300px 0 20px 0;
+    }
+
+    .heroText h2 {
+        font-size: 3.2rem;
+        margin-bottom: 10px;
+    }
+
+    .heroText h2 > span {
+        font-size: 3.2rem;
+    }
+
+    .heroText h1 {
+        font-size: 3.6rem;
+    }
+
+    .heroText h1 > span {
+        font-size: 3.6rem;
+    }
+
+    .heroText p {
+        font-size: 1.4rem;
+    }
 }

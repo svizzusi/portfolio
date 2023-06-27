@@ -8,6 +8,7 @@ import NavBar from "../NavBar/NavBar"
 import Projects from "../Projects/Projects"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import Hamburger from "../Hamburger/Hamburger"
 
 const App = () => {
   AOS.init({
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <>
         <NavBar />
+        {/* <Hamburger /> */}
         <Hero />
         <CloudTop />
         <CloudBottom />
