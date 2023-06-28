@@ -40,7 +40,6 @@
     padding: 20px;
 }
 
-
 .formForm {
     background: var(--lightGray);
     padding: 20px;
@@ -88,10 +87,7 @@
 Media Queries
 *****************************************************************
 *****************************************************************/
-
-
 @media screen and (max-width: 1024px) {
-
     .formTextSection h3 {
         font-size: 3.6rem;
     }
@@ -101,9 +97,7 @@ Media Queries
     }   
 }
 
-
 @media screen and (max-width: 768px) {
-
     .formContainer {
         flex-wrap: wrap;
         height: fit-content;
@@ -137,7 +131,6 @@ Media Queries
     
 }
 @media screen and (max-width: 480px) {
-
     .formTextSection h3 {
         font-size: 2.8rem;
         padding-block: 10px;
@@ -152,5 +145,4 @@ Media Queries
         font-size: 1.2rem;
         padding-block: 10px;
     }
-
 }

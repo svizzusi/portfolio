@@ -41,7 +41,6 @@
         right: -40%;
     }
 
-
     100% {
         right: 120%;
     }
@@ -51,7 +50,6 @@
     0% {
         right: -30%;
     }
-
 
     100% {
         right: 110%;
@@ -63,7 +61,6 @@
         right: -20%;
     }
 
-
     100% {
         right: 110%;
     }
@@ -74,8 +71,6 @@
 Media Queries
 *****************************************************************
 *****************************************************************/
-
-
 @media screen and (max-width: 768px) {
     .cloudBottom1 {
         bottom: 15vh;
@@ -87,7 +82,6 @@ Media Queries
     .risingSun {
         bottom: 10vh;
     }
-
 }
 @media screen and (max-width: 450px) {
     .cloudBottom1 {
@@ -100,7 +94,6 @@ Media Queries
     .risingSun {
         bottom: 5vh;
     }
-
 }
 @media screen and (max-width: 320px) {
     .cloudBottom1 {
@@ -113,5 +106,4 @@ Media Queries
     .risingSun {
         bottom: 3vh;
     }
-
 }

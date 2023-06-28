@@ -50,7 +50,6 @@ Media Queries
 
 
 @media screen and (max-width: 528px) {
-
     .heroText {
         padding: 300px 0 20px 0;
     }

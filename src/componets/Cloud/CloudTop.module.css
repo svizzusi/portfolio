@@ -7,7 +7,6 @@
     overflow: hidden;
 }
 
-
 .cloudTop {
     width: 500px;
     position: absolute;
@@ -111,10 +110,7 @@
 Media Queries
 *****************************************************************
 *****************************************************************/
-
-
-@media screen and (max-width:1700px) {
-    
+@media screen and (max-width:1700px) {  
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
@@ -172,8 +168,7 @@ Media Queries
     }
 }
 
-@media screen and (max-width:1250px) {
-    
+@media screen and (max-width:1250px) {   
     .cloudDownArrow1 {
         top: 32vh;
     }
@@ -208,7 +203,7 @@ Media Queries
     
     .cloudDownArrow2 {
     top: 24vh;
-}
+    }
 
     @keyframes cloudDownArrow2 {
         0% {
@@ -238,8 +233,7 @@ Media Queries
         }
     }
 }
-@media screen and (max-width:1120px) {
-    
+@media screen and (max-width:1120px) { 
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
@@ -267,8 +261,7 @@ Media Queries
             left: 130%;
         }
     }
-    
-    
+      
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
@@ -297,8 +290,7 @@ Media Queries
         }
     }
 }
-@media screen and (max-width:1024px) {
-    
+@media screen and (max-width:1024px) { 
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
@@ -327,7 +319,6 @@ Media Queries
         }
     }
     
-    
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
@@ -356,8 +347,7 @@ Media Queries
         }
     }
 }
-@media screen and (max-width:978px) {
-    
+@media screen and (max-width:978px) { 
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
@@ -385,7 +375,6 @@ Media Queries
             left: 130%;
         }
     }
-    
     
     @keyframes cloudDownArrow2 {
         0% {
@@ -415,8 +404,7 @@ Media Queries
         }
     }
 }
-@media screen and (max-width:878px) {
-    
+@media screen and (max-width:878px) { 
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
@@ -444,7 +432,6 @@ Media Queries
             left: 135%;
         }
     }
-    
     
     @keyframes cloudDownArrow2 {
         0% {
@@ -474,8 +461,7 @@ Media Queries
         }
     }
 }
-@media screen and (max-width:800px) {
-    
+@media screen and (max-width:800px) { 
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
@@ -503,7 +489,6 @@ Media Queries
             left: 139%;
         }
     }
-    
     
     @keyframes cloudDownArrow2 {
         0% {
@@ -534,7 +519,6 @@ Media Queries
     }
 }
 @media screen and (max-width:690px) {
-    
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
@@ -562,7 +546,6 @@ Media Queries
             left: 139%;
         }
     }
-    
     
     @keyframes cloudDownArrow2 {
         0% {
@@ -593,7 +576,6 @@ Media Queries
     }
 }
 @media screen and (max-width:580px) {
-    
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
@@ -621,7 +603,6 @@ Media Queries
             left: 142%;
         }
     }
-    
     
     @keyframes cloudDownArrow2 {
         0% {
@@ -652,7 +633,6 @@ Media Queries
     }
 }
 @media screen and (max-width:500px) {
-    
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
@@ -680,7 +660,6 @@ Media Queries
             left: 146%;
         }
     }
-    
     
     @keyframes cloudDownArrow2 {
         0% {

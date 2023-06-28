@@ -127,7 +127,6 @@ Media Queries
 
 
 @media screen and (max-width: 1024px) {
-
     .projectBox h3 {
         font-size: 3.6rem;
     }
@@ -141,9 +140,7 @@ Media Queries
     }
 }
 
-
 @media screen and (max-width: 768px) {
-
     .projectsContainer {
         flex-wrap: wrap;
         height: fit-content;
@@ -186,12 +183,10 @@ Media Queries
 
     .lang span {
         font-size: 1.2rem;
-        padding: 6px 10px;
-       
+        padding: 6px 10px;    
     }
 
     .projectBtns button {
         padding: 8px 12px;
     }
-
 }
