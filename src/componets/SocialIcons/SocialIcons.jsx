@@ -1,5 +1,5 @@
 import { FiLinkedin, FiTwitter } from 'react-icons/fi';
-import { AiOutlineGithub } from 'react-icons/ai';
+import { FaGithub } from 'react-icons/fa';
 import style from './SocialIcons.module.css'
 
 
@@ -10,7 +10,7 @@ const SocialIcons = () => {
                 <FiLinkedin className={style.social}/>
             </div>
             <div className={style.socialContainer}>
-                <AiOutlineGithub className={style.social}/>
+                <FaGithub className={style.social}/>
             </div>
             <div className={style.socialContainer}>
                 <FiTwitter className={style.social}/>
