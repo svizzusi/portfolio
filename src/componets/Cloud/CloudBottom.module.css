@@ -100,25 +100,13 @@ Media Queries
 }
 @media screen and (max-width: 450px) {
     .cloudBottom1 {
-        bottom: 70px;
-    }
-    
-    .cloudBottom2 {
-        bottom: 10px;
-    }
-    .risingSun {
-        bottom: 40px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .cloudBottom1 {
-        bottom: 80px;
-    }
-    
-    .cloudBottom2 {
-        bottom: 20px;
-    }
-    .risingSun {
         bottom: 50px;
+    }
+    
+    .cloudBottom2 {
+        bottom: 5px;
+    }
+    .risingSun {
+        bottom: 20px;
     }
 }
