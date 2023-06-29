@@ -2,7 +2,7 @@ import style from './Hero.module.css'
 import SocialIcons from '../SocialIcons/SocialIcons'
 
 const Hero = () => {
-    return (
+        return (
         <main className={style.main}>
             <div className={style.heroText}>
                 <h1>Fullstack <span>Software Engineer</span></h1>

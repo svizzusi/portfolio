@@ -636,10 +636,22 @@ Media Queries
     .imageContainer {
         height: 900px;
     }
+    .cloudTop {
+        width: 400px;
+        top: 13vh;
+    }
+    .cloudDownArrow1 {
+        top: 28vh;
+    }
+
+    .cloudDownArrow2 {
+        top: 20vh;
+    }
+
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: 1%;
+            left: -9%;
         }
     
         20% {
@@ -647,11 +659,11 @@ Media Queries
         }
     
         50% {
-            opacity: 0;
+            opacity: 1;
         }
     
         60% {
-            opacity: 1;
+            opacity: 0;
         }
     
         70% {
@@ -660,14 +672,14 @@ Media Queries
         
         100% {
             opacity: 0;
-            left: 146%;
+            left: 136%;
         }
     }
     
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: 23%;
+            left: 5%;
         }
     
         20% {
@@ -684,11 +696,11 @@ Media Queries
     
         70% {
             opacity: 0;
-        }
+        } 
         
         100% {
             opacity: 0;
-            left: 165%;
+            left: 135%;
         }
     }
 }

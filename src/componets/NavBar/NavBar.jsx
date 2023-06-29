@@ -1,14 +1,21 @@
 import style from './NavBar.module.css'
 import logo from '../../assets/images/logo.png'
+import { useState } from 'react'
 
 
 const NavBar = () => {
+    const [navExpanded, setNavExpanded] = useState(false)
+
+    const openNav = () => {
+        setNavExpanded(!navExpanded)
+    }
     return (
         <header>
             <nav className={style.nav}>
                 <img className={style.logo} src={logo} alt={logo} />
-                {/* <Hamburger /> */}
-                <ul className={style.navLinks}>
+                <ul 
+                className={navExpanded ? `${style.navLinks} ${style.expanded}` : style.navLinks}
+                >
                     <li>
                         <a href='#'>Home</a>
                     </li>
@@ -22,6 +29,12 @@ const NavBar = () => {
                         <a href='#'>Contact</a>
                     </li>
                 </ul>
+                <div 
+                    className={style['icon-three']} 
+                    onClick={openNav}
+                >
+                    <div className={`${style['hamburger']} ${style['hamburger-three']}`}></div>
+                </div>
             </nav>
         </header>
     )
