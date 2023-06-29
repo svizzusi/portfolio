@@ -632,7 +632,10 @@ Media Queries
         }
     }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:568px) {
+    .imageContainer {
+        height: 900px;
+    }
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;

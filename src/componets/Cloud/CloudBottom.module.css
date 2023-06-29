@@ -83,27 +83,42 @@ Media Queries
         bottom: 10vh;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 568px) {
+    .imageContainer {
+        height: 900px;
+    }
     .cloudBottom1 {
-        bottom: 10vh;
+        bottom: 80px;
     }
     
     .cloudBottom2 {
-        bottom: 3vh;
+        bottom: 20px;
     }
     .risingSun {
-        bottom: 5vh;
+        bottom: 50px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .cloudBottom1 {
+        bottom: 70px;
+    }
+    
+    .cloudBottom2 {
+        bottom: 10px;
+    }
+    .risingSun {
+        bottom: 40px;
     }
 }
 @media screen and (max-width: 320px) {
     .cloudBottom1 {
-        bottom: 5vh;
+        bottom: 80px;
     }
     
     .cloudBottom2 {
-        bottom: 2vh;
+        bottom: 20px;
     }
     .risingSun {
-        bottom: 3vh;
+        bottom: 50px;
     }
 }

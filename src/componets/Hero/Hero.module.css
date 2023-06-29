@@ -49,7 +49,12 @@ Media Queries
 *****************************************************************/
 
 
-@media screen and (max-width: 528px) {
+@media screen and (max-width: 568px) {
+    .main {
+        height: 900px;
+    }
+    
+    
     .heroText {
         padding: 300px 0 20px 0;
     }
@@ -72,6 +77,6 @@ Media Queries
     }
 
     .heroText p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
 }
