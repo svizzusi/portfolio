@@ -10,7 +10,7 @@ export default [
         lang1:"REACT",
         lang2:"NODE",
         lang3:"EXPRESS",
-        dataAOS: 'fade-right'
+        dataAOS: 'zoom-in-up'
 
     },
     {
@@ -21,7 +21,7 @@ export default [
         lang1:"JAVASCRIPT",
         lang2:"CSS",
         lang3:"HTML",
-        dataAOS: 'fade-left'
+        dataAOS: 'zoom-in-down'
     },
     {
         id: 3,
@@ -31,6 +31,6 @@ export default [
         lang1:"JAVASCRIPT",
         lang2:"CSS",
         lang3:"HTML",
-        dataAOS: 'fade-right'
+        dataAOS: 'zoom-in-up'
     }
 ]
