@@ -85,7 +85,7 @@ Media Queries
 }
 @media screen and (max-width: 568px) {
     .imageContainer {
-        height: 900px;
+        height: 840px;
     }
     .cloudBottom1 {
         bottom: 80px;
@@ -98,15 +98,63 @@ Media Queries
         bottom: 50px;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 488px) {
+    .imageContainer {
+        height: 840px;
+    }
+
     .cloudBottom1 {
         bottom: 50px;
     }
     
     .cloudBottom2 {
-        bottom: 5px;
+        bottom: 1px;
     }
     .risingSun {
         bottom: 20px;
+    }
+    @keyframes moveCloud1 {
+        0% {
+            right: -90%;
+        }
+    
+        100% {
+            right: 130%;
+        }
+    }
+    
+    @keyframes moveCloud2 {
+        0% {
+            right: -60%;
+        }
+    
+        100% {
+            right: 90%;
+        }
+    }
+    
+    @keyframes moveSun {
+        0% {
+            right: -50%;
+        }
+    
+        100% {
+            right: 130%;
+        }
+    }
+}
+@media screen and (max-width: 444px) {
+    .imageContainer {
+        height: 900px;
+    }
+}
+@media screen and (max-width: 407px) {
+    .imageContainer {
+        height: 930px;
+    }
+}
+@media screen and (max-width: 351px) {
+    .imageContainer {
+        height: 950px;
     }
 }

@@ -416,11 +416,11 @@ Media Queries
         }
     
         50% {
-            opacity: 0;
+            opacity: 1;
         }
     
         60% {
-            opacity: 1;
+            opacity: 0;
         }
     
         70% {
@@ -462,10 +462,23 @@ Media Queries
     }
 }
 @media screen and (max-width:800px) { 
+    .cloudDownArrow2 {
+        top: 27vh;
+    }
+
+    @keyframes moveCloud {
+        0% {
+            left: -75%;
+        }
+    
+        100% {
+            left: 110%;
+        }
+    }
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -6%;
+            left: -50%;
         }
     
         20% {
@@ -486,14 +499,14 @@ Media Queries
         
         100% {
             opacity: 0;
-            left: 139%;
+            left: 135%;
         }
     }
     
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: 4%;
+            left: -30%;
         }
     
         20% {
@@ -505,6 +518,35 @@ Media Queries
         }
     
         52% {
+            opacity: 1;
+        }
+    
+        70% {
+            opacity: 0;
+        }
+        
+        100% {
+            opacity: 0;
+            left: 155%;
+        }
+    }
+}
+@media screen and (max-width:690px) {
+    @keyframes cloudDownArrow1 {
+        0% {
+            opacity: 0;
+            left: -40%;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0;
+        }
+    
+        60% {
             opacity: 1;
         }
     
@@ -517,40 +559,11 @@ Media Queries
             left: 145%;
         }
     }
-}
-@media screen and (max-width:690px) {
-    @keyframes cloudDownArrow1 {
-        0% {
-            opacity: 0;
-            left: -6%;
-        }
-    
-        20% {
-            opacity: 0;
-        }
-    
-        50% {
-            opacity: 0;
-        }
-    
-        60% {
-            opacity: 1;
-        }
-    
-        70% {
-            opacity: 0;
-        }
-        
-        100% {
-            opacity: 0;
-            left: 139%;
-        }
-    }
     
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: 8%;
+            left: -25%;
         }
     
         20% {
@@ -571,15 +584,24 @@ Media Queries
         
         100% {
             opacity: 0;
-            left: 149%;
+            left: 160%;
         }
     }
 }
 @media screen and (max-width:580px) {
+    @keyframes moveCloud {
+        0% {
+            left: -75%;
+        }
+    
+        100% {
+            left: 110%;
+        }
+    }
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -3%;
+            left: -40%;
         }
     
         20% {
@@ -600,14 +622,14 @@ Media Queries
         
         100% {
             opacity: 0;
-            left: 142%;
+            left: 145%;
         }
     }
     
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: 17%;
+            left: -5%;
         }
     
         20% {
@@ -628,7 +650,7 @@ Media Queries
         
         100% {
             opacity: 0;
-            left: 159%;
+            left: 180%;
         }
     }
 }
@@ -641,17 +663,150 @@ Media Queries
         top: 13vh;
     }
     .cloudDownArrow1 {
-        top: 28vh;
+        top: 29vh;
     }
 
     .cloudDownArrow2 {
-        top: 20vh;
+        top: 23vh;
+    }
+
+    @keyframes moveCloud {
+        0% {
+            left: -75%;
+        }
+    
+        100% {
+            left: 110%;
+        }
     }
 
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -9%;
+            left: -50%;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0;
+        }
+    
+        60% {
+            opacity: 1;
+        }
+    
+        70% {
+            opacity: 0;
+        }
+        
+        100% {
+            opacity: 0;
+            left: 135%;
+        }
+    }
+    
+    @keyframes cloudDownArrow2 {
+        0% {
+            opacity: 0;
+            left: -25%;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0;
+        }
+    
+        52% {
+            opacity: 1;
+        }
+    
+        70% {
+            opacity: 0;
+        }
+        
+        100% {
+            opacity: 0;
+            left: 160%;
+        }
+    }
+}
+@media screen and (max-width:468px) {
+    @keyframes cloudDownArrow1 {
+        0% {
+            opacity: 0;
+            left: -40%;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0;
+        }
+    
+        60% {
+            opacity: 1;
+        }
+    
+        70% {
+            opacity: 0;
+        }
+        
+        100% {
+            opacity: 0;
+            left: 145%;
+        }
+    }
+    
+    @keyframes cloudDownArrow2 {
+        0% {
+            opacity: 0;
+            left: -25%;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 0;
+        }
+    
+        52% {
+            opacity: 1;
+        }
+    
+        70% {
+            opacity: 0;
+        }
+        
+        100% {
+            opacity: 0;
+            left: 160%;
+        }
+    }
+}
+@media screen and (max-width:385px) {
+
+    .cloudDownArrow1 {
+        top: 29vh;
+    }
+
+    .cloudDownArrow2 {
+        top: 23vh;
+    }
+
+    @keyframes cloudDownArrow1 {
+        0% {
+            opacity: 0;
+            left: -30%;
         }
     
         20% {
@@ -672,14 +827,14 @@ Media Queries
         
         100% {
             opacity: 0;
-            left: 136%;
+            left: 145%;
         }
     }
     
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: 5%;
+            left: -5%;
         }
     
         20% {
@@ -687,20 +842,20 @@ Media Queries
         }
     
         50% {
-            opacity: 0;
+            opacity: 1;
         }
     
         52% {
-            opacity: 1;
+            opacity: 0;
         }
     
         70% {
             opacity: 0;
-        } 
+        }
         
         100% {
             opacity: 0;
-            left: 135%;
+            left: 170%;
         }
     }
 }

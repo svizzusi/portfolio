@@ -51,7 +51,7 @@ Media Queries
 
 @media screen and (max-width: 568px) {
     .main {
-        height: 900px;
+        height: 820px;
     }
     
     
@@ -78,5 +78,26 @@ Media Queries
 
     .heroText p {
         font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .main {
+        height: 840px;
+    }
+}
+@media screen and (max-width: 444px) {
+    .main {
+        height: 900px;
+    }
+}
+@media screen and (max-width: 407px) {
+    .main {
+        height: 930px;
+    }
+}
+@media screen and (max-width: 351px) {
+    .main {
+        height: 950px;
     }
 }
