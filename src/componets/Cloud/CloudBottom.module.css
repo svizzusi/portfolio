@@ -73,14 +73,14 @@ Media Queries
 *****************************************************************/
 @media screen and (max-width: 768px) {
     .cloudBottom1 {
-        bottom: 15vh;
+        bottom: 10vh;
     }
     
     .cloudBottom2 {
-        bottom: 8vh;
+        bottom: 3vh;
     }
     .risingSun {
-        bottom: 10vh;
+        bottom: 5vh;
     }
 }
 @media screen and (max-width: 568px) {
@@ -98,9 +98,24 @@ Media Queries
         bottom: 50px;
     }
 }
+@media screen and (max-width: 504px) {
+    .imageContainer {
+        height: 860px;
+    }
+    .cloudBottom1 {
+        bottom: 40px;
+    }
+    
+    .cloudBottom2 {
+        bottom: 10px;
+    }
+    .risingSun {
+        bottom: 20px;
+    }
+}
 @media screen and (max-width: 488px) {
     .imageContainer {
-        height: 840px;
+        height: 880px;
     }
 
     .cloudBottom1 {

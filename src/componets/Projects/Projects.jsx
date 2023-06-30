@@ -14,13 +14,7 @@ const Projects = () => {
                     Data.map( project => (
                         <Project 
                             key={project.id}
-                            img={project.img}
-                            title={project.title}
-                            details={project.details}
-                            lang1={project.lang1}
-                            lang2={project.lang2}
-                            lang3={project.lang3}
-                            dataAOS={project.dataAOS}
+                            project={project}
                         />
                     ))
                 }

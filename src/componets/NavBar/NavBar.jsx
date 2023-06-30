@@ -8,6 +8,7 @@ const NavBar = () => {
 
     const openNav = () => {
         setNavExpanded(!navExpanded)
+
     }
     return (
         <header>
@@ -30,7 +31,7 @@ const NavBar = () => {
                     </li>
                 </ul>
                 <div 
-                    className={style['icon-three']} 
+                    className={navExpanded ? `${style['icon-three']} ${style['active-three']}` : style['icon-three']}
                     onClick={openNav}
                 >
                     <div className={`${style['hamburger']} ${style['hamburger-three']}`}></div>
