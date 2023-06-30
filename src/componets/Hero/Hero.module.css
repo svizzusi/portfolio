@@ -109,6 +109,6 @@ Media Queries
 
 @media screen and (max-width: 313px) {
     .main {
-        height: 1050px;
+        height: 1100px;
     }
 }

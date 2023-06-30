@@ -14,9 +14,9 @@ const Project = (props) => {
                 <span>{props.project.lang3}</span>
             </div>
             <div className={style.projectBtns}>
-                <button>CASE STUDY</button>
-                <button>LIVE</button>
-                <button>GITHUB</button>
+                <a href={props.project.caseStudy}><button>CASE STUDY</button></a>
+                <a href={props.project.live}><button>LIVE</button></a>
+                <a href={props.project.github}><button>GITHUB</button></a>
             </div>
         </div>
     </div>

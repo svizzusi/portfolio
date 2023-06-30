@@ -10,6 +10,9 @@ export default [
         lang1:"REACT",
         lang2:"NODE",
         lang3:"EXPRESS",
+        caseStudy:'https://stephenvizzusi.vercel.app/',
+        live:'https://stephenvizzusi.vercel.app/',
+        github:'https://stephenvizzusi.vercel.app/',
         dataAOS: 'zoom-in-up'
 
     },
@@ -21,6 +24,9 @@ export default [
         lang1:"JAVASCRIPT",
         lang2:"CSS",
         lang3:"HTML",
+        caseStudy:'https://stephenvizzusi.vercel.app/',
+        live:'https://king-motors.netlify.app/',
+        github:'https://github.com/svizzusi/king-motors',
         dataAOS: 'zoom-in-down'
     },
     {
@@ -31,6 +37,9 @@ export default [
         lang1:"JAVASCRIPT",
         lang2:"CSS",
         lang3:"HTML",
+        caseStudy:'https://stephenvizzusi.vercel.app/',
+        live:'https://dentaclinic.netlify.app/',
+        github:'https://github.com/svizzusi/denta-clinic',
         dataAOS: 'zoom-in-up'
     }
 ]

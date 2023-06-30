@@ -181,6 +181,6 @@ Media Queries
 }
 @media screen and (max-width: 313px) {
     .imageContainer {
-        height: 1050px;
+        height: 1100px;
     }
 }
