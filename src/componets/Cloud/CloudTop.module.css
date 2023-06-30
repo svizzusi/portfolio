@@ -794,7 +794,7 @@ Media Queries
     }
 }
 
-@media screen and (max-width:385px) {
+@media screen and (max-width:391px) {
 
     .cloudDownArrow1 {
         top: 30vh;
