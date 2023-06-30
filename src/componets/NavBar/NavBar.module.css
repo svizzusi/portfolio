@@ -38,7 +38,7 @@ header {
 }
 
 .navLinks li a:hover{
-    text-decoration: underline;
+    text-decoration:line-through;
     color: var(--risingSun);
     transition: .3s ease-in-out;
 }
@@ -61,7 +61,7 @@ Media Queries
         position: absolute;
         right: 20px;
         top: 70px;
-        background: rgba(49, 46, 46, 0.41);
+        background: rgba(49, 46, 46, 0.71);
         border-radius: 0 0 8px 8px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(7.6px);
