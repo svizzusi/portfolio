@@ -190,3 +190,18 @@ Media Queries
         padding: 8px 12px;
     }
 }
+@media screen and (max-width: 377px) {
+    .projectBtns button {
+        padding: 6px 8px;
+    }
+    .lang span {
+        font-size: 1rem;
+        padding: 4px 8px;    
+    }
+}
+@media screen and (max-width: 345px) {
+    .projectBtns button {
+        padding: 3px 5px;
+    }
+
+}

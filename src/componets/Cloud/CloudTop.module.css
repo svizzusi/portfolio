@@ -796,11 +796,11 @@ Media Queries
 @media screen and (max-width:385px) {
 
     .cloudDownArrow1 {
-        top: 29vh;
+        top: 34vh;
     }
 
     .cloudDownArrow2 {
-        top: 23vh;
+        top: 27vh;
     }
 
     @keyframes cloudDownArrow1 {

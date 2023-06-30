@@ -101,3 +101,14 @@ Media Queries
         height: 950px;
     }
 }
+@media screen and (max-width: 346px) {
+    .main {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 313px) {
+    .main {
+        height: 1050px;
+    }
+}
