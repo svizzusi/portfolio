@@ -13,7 +13,7 @@ const NavBar = () => {
     return (
         <header>
             <nav className={style.nav}>
-                <img className={style.logo} src={logo} alt={logo} />
+                <a href='./index.html'><img className={style.logo} src={logo} alt={logo} /></a>
                 <ul 
                 className={navExpanded ? `${style.navLinks} ${style.expanded}` : style.navLinks}
                 >
@@ -21,13 +21,13 @@ const NavBar = () => {
                         <a href='#'>Home</a>
                     </li>
                     <li>
-                        <a href='#'>Projects</a>
+                        <a href='#projectSection'>Projects</a>
                     </li>
                     <li>
-                        <a href='#'>About</a>
+                        <a href='#aboutSection'>About</a>
                     </li>
                     <li>
-                        <a href='#'>Contact</a>
+                        <a href='#contactSection'>Contact</a>
                     </li>
                 </ul>
                 <div 

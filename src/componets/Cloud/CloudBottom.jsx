@@ -6,7 +6,7 @@ const CloudBottom = () => {
     return (
         <div className = {style.imageContainer}>
             <img className={style.cloudBottom1} src={cloud} />
-            <img className={style.risingSun} src={sun} />
+            <img id='projectSection' className={style.risingSun} src={sun} />
             <img className={style.cloudBottom2} src={cloud} />
         </div>
     )

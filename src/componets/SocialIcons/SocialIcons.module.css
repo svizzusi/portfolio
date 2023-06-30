@@ -4,7 +4,7 @@
     margin-top: 20px;
 }
 
-.socialContainer {
+.socialContainer a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 
-.socialContainer:hover {
+.socialContainer a:hover {
     color: var(--risingSun);
     border: 2px solid var(--white);
     transition: .8s ease-in-out;

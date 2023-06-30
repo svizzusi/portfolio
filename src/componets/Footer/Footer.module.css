@@ -21,7 +21,7 @@ footer h3 {
     padding: 10px 10px 50px 10px;
 }
 
-.footerContainer {
+.footerContainer a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ footer h3 {
     cursor: pointer;
 }
 
-.footerContainer:hover {
+.footerContainer a:hover {
     color: var(--risingSun);
     transition: .8s ease-in-out;
 }

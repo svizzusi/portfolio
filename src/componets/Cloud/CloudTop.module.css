@@ -794,7 +794,7 @@ Media Queries
     }
 }
 
-@media screen and (max-width:391px) {
+@media screen and (max-width:401px) {
 
     .cloudDownArrow1 {
         top: 30vh;
@@ -857,6 +857,72 @@ Media Queries
         100% {
             opacity: 0;
             left: 170%;
+        }
+    }
+}
+@media screen and (max-width:300px) {
+
+    .cloudDownArrow1 {
+        top: 30vh;
+    }
+
+    .cloudDownArrow2 {
+        top: 24vh;
+    }
+
+    @keyframes cloudDownArrow1 {
+        0% {
+            opacity: 0;
+            left: -20%;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 1;
+        }
+    
+        60% {
+            opacity: 0;
+        }
+    
+        70% {
+            opacity: 0;
+        }
+        
+        100% {
+            opacity: 0;
+            left: 145%;
+        }
+    }
+    
+    @keyframes cloudDownArrow2 {
+        0% {
+            opacity: 0;
+            left: 10%;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 1;
+        }
+    
+        52% {
+            opacity: 0;
+        }
+    
+        70% {
+            opacity: 0;
+        }
+        
+        100% {
+            opacity: 0;
+            left: 190%;
         }
     }
 }
