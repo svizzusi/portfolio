@@ -8,13 +8,13 @@ const Footer = () => {
             <h3>Follow Me</h3>
             <div className={style.footerLinks}>
                 <div className={style.footerContainer}>
-                     <a href='https://www.linkedin.com/in/stephen-vizzusi-99882218b/'><FaLinkedin className={style.footerSocial}/></a>
+                     <a href='https://www.linkedin.com/in/stephen-vizzusi-99882218b/' target="_blank"><FaLinkedin className={style.footerSocial}/></a>
                 </div>
                 <div className={style.footerContainer}>
-                    <a href='https://github.com/svizzusi'><FaGithub className={style.footerSocial}/></a>
+                    <a href='https://github.com/svizzusi' target="_blank"><FaGithub className={style.footerSocial}/></a>
                 </div>
                 <div className={style.footerContainer}>
-                    <a href='https://twitter.com/StephenVizzusi'><FaTwitter className={style.footerSocial}/></a>
+                    <a href='https://twitter.com/StephenVizzusi' target="_blank"><FaTwitter className={style.footerSocial}/></a>
                 </div>
             </div>
         </footer>
