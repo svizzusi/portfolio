@@ -5,7 +5,7 @@ export default [
     {
         id: 1,
         img:img1,
-        title:"Be Well",
+        title:"COMING SOON: Be Well",
         details:"BeWell is a social media app where people can connect with others about their fitness, diet, meditation goals, and overall well-being.",
         lang1:"REACT",
         lang2:"NODE",
