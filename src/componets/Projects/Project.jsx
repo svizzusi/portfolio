@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './Projects.module.css'
+import { Link } from 'react-router-dom'
 
 const Project = (props) => {
   return (
@@ -14,7 +15,7 @@ const Project = (props) => {
                 <span>{props.project.lang3}</span>
             </div>
             <div className={style.projectBtns}>
-                <a href={props.project.caseStudy} target="_blank"><button>CASE STUDY</button></a>
+                <Link to={props.project.link} target="_blank"><button>CASE STUDY</button></Link>
                 <a href={props.project.live} target="_blank"><button>LIVE</button></a>
                 <a href={props.project.github} target="_blank"><button>GITHUB</button></a>
             </div>

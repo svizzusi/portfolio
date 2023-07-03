@@ -1,13 +1,12 @@
-import About from "./componets/About/About"
-import CloudBottom from "./componets/Cloud/CloudBottom"
-import CloudTop from "./componets/Cloud/CloudTop"
-import Form from "./componets/Form/Form"
+import CaseStudy1 from "./componets/CaseStudy1/CaseStudy1";
+import CaseStudy2 from "./componets/CaseStudy2/CaseStudy2";
+import CaseStudy3 from "./componets/CaseStudy3/CaseStudy3";
 import Footer from "./componets/Footer/Footer"
-import Hero from "./componets/Hero/Hero"
+import HomePage from "./componets/HomePage/HomePage";
 import NavBar from "./componets/NavBar/NavBar"
-import Projects from "./componets/Projects/Projects"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   AOS.init({
@@ -18,12 +17,12 @@ const App = () => {
   return (
     <>
         <NavBar />
-        <Hero />
-        <CloudTop />
-        <CloudBottom />
-        <Projects />
-        <About />
-        <Form />
+        <Routes>
+          <Route path={'/'} element={<HomePage />}></Route>
+          <Route path={'/case-study-1'} element={<CaseStudy1 />}></Route>
+          <Route path={'/case-study-2'} element={<CaseStudy2 />}></Route>
+          <Route path={'/case-study-3'} element={<CaseStudy3 />}></Route>
+        </Routes>
         <Footer />
     </>
   )

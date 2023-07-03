@@ -1,6 +1,7 @@
 import style from './NavBar.module.css'
 import logo from '../../assets/images/logo.png'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 
 const NavBar = () => {
@@ -8,26 +9,26 @@ const NavBar = () => {
 
     const openNav = () => {
         setNavExpanded(!navExpanded)
-
     }
+    
     return (
         <header>
             <nav className={style.nav}>
-                <a href='./index.html'><img className={style.logo} src={logo} alt={logo} /></a>
+                <Link to={'/'}><img className={style.logo} src={logo} alt={logo} /></Link>
                 <ul 
                 className={navExpanded ? `${style.navLinks} ${style.expanded}` : style.navLinks}
                 >
                     <li>
-                        <a href='#'>Home</a>
+                    <Link to={'/'}>Home</Link>
                     </li>
                     <li>
-                        <a href='#projectSection'>Projects</a>
+                        <Link to={'/#projectSection'}>Projects</Link>
                     </li>
                     <li>
-                        <a href='#aboutSection'>About</a>
+                        <Link to={'/#aboutSection'}>About</Link>
                     </li>
                     <li>
-                        <a href='#contactSection'>Contact</a>
+                        <Link to={'/#contactSection'}>Contact</Link>
                     </li>
                 </ul>
                 <div 
