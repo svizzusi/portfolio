@@ -1,7 +1,7 @@
 .imageContainer {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 950px;
     top: 0;
     z-index: -1;
     overflow: hidden;
@@ -10,7 +10,7 @@
 .cloudBottom1 {
     width: 300px;
     position: absolute;
-    bottom: 20vh;
+    bottom: 200px;
     animation-name: moveCloud1;
     animation-duration: 30s;
     animation-iteration-count: infinite;
@@ -20,7 +20,7 @@
 .cloudBottom2 {
     width: 200px;
     position: absolute;
-    bottom: 13vh;
+    bottom: 130px;
     animation-name: moveCloud2;
     animation-duration: 30s;
     animation-iteration-count: infinite;
@@ -29,7 +29,7 @@
 .risingSun {
     width: 100px;
     position: absolute;
-    bottom: 15vh;
+    bottom: 150px;
     animation-name: moveSun;
     animation-duration: 30s;
     animation-iteration-count: infinite;
@@ -73,14 +73,26 @@ Media Queries
 *****************************************************************/
 @media screen and (max-width: 768px) {
     .cloudBottom1 {
-        bottom: 10vh;
+        bottom: 200px;
     }
     
     .cloudBottom2 {
-        bottom: 3vh;
+        bottom: 130px;
     }
     .risingSun {
-        bottom: 5vh;
+        bottom: 150px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .cloudBottom1 {
+        bottom: 110px;
+    }
+    
+    .cloudBottom2 {
+        bottom: 50px;
+    }
+    .risingSun {
+        bottom: 70px;
     }
 }
 @media screen and (max-width: 568px) {
