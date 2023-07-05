@@ -1,7 +1,7 @@
 .imageContainer {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 1000px;
     top: 0;
     z-index: -1;
     overflow: hidden;
@@ -10,7 +10,7 @@
 .cloudTop {
     width: 500px;
     position: absolute;
-    top: 13vh;
+    top: 130px;
     animation-name: moveCloud;
     animation-duration: 25s;
     animation-iteration-count: infinite;
@@ -30,7 +30,7 @@
 .cloudDownArrow1 {
     animation-name: cloudDownArrow1;
     position: absolute;
-    top: 34vh;
+    top: 330px;
     font-size: 8.0rem;
     animation-duration: 25s;
     animation-iteration-count: infinite;
@@ -69,7 +69,7 @@
 .cloudDownArrow2 {
     animation-name: cloudDownArrow2;
     position: absolute;
-    top: 26vh;
+    top: 255px;
     font-size: 8.0rem;
     animation-duration: 25s;
     animation-iteration-count: infinite;
@@ -170,7 +170,7 @@ Media Queries
 
 @media screen and (max-width:1250px) {   
     .cloudDownArrow1 {
-        top: 32vh;
+        top: 320px;
     }
 
     @keyframes cloudDownArrow1 {
@@ -202,7 +202,7 @@ Media Queries
     }
     
     .cloudDownArrow2 {
-    top: 24vh;
+    top: 250px;
     }
 
     @keyframes cloudDownArrow2 {
@@ -416,6 +416,9 @@ Media Queries
         }
     
         50% {
+            opacity: 0;
+        }
+        55% {
             opacity: 1;
         }
     
@@ -463,7 +466,7 @@ Media Queries
 }
 @media screen and (max-width:800px) { 
     .cloudDownArrow2 {
-        top: 27vh;
+        top: 260px;
     }
 
     @keyframes moveCloud {
@@ -535,7 +538,7 @@ Media Queries
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -40%;
+            left: -44%;
         }
     
         20% {
@@ -589,6 +592,9 @@ Media Queries
     }
 }
 @media screen and (max-width:580px) {
+    .cloudDownArrow2 {
+        top: 230px;
+    }
     @keyframes moveCloud {
         0% {
             left: -75%;
@@ -612,7 +618,7 @@ Media Queries
             opacity: 0;
         }
     
-        60% {
+        52% {
             opacity: 1;
         }
     
@@ -660,14 +666,14 @@ Media Queries
     }
     .cloudTop {
         width: 400px;
-        top: 13vh;
+        top: 130px;
     }
     .cloudDownArrow1 {
-        top: 29vh;
+        top: 290px;
     }
 
     .cloudDownArrow2 {
-        top: 23vh;
+        top: 230px;
     }
 
     @keyframes moveCloud {
@@ -740,7 +746,7 @@ Media Queries
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -40%;
+            left: -44%;
         }
     
         20% {
@@ -805,11 +811,11 @@ Media Queries
         }
     }
     .cloudDownArrow1 {
-        top: 32vh;
+        top: 280px;
     }
 
     .cloudDownArrow2 {
-        top: 26vh;
+        top: 230px;
     }
 
     @keyframes cloudDownArrow1 {
@@ -823,11 +829,11 @@ Media Queries
         }
     
         50% {
-            opacity: 1;
+            opacity: 0;
         }
     
-        60% {
-            opacity: 0;
+        52% {
+            opacity: 1;
         }
     
         70% {
@@ -851,11 +857,11 @@ Media Queries
         }
     
         50% {
-            opacity: 1;
+            opacity: 0;
         }
     
         52% {
-            opacity: 0;
+            opacity: 1;
         }
     
         70% {
@@ -879,17 +885,17 @@ Media Queries
         }
     }
     .cloudDownArrow1 {
-        top: 30vh;
+        top: 280px;
     }
 
     .cloudDownArrow2 {
-        top: 24vh;
+        top: 220px;
     }
 
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -65%;
+            left: -79%;
         }
     
         20% {
@@ -897,11 +903,11 @@ Media Queries
         }
     
         50% {
-            opacity: 1;
+            opacity: 0;
         }
     
-        60% {
-            opacity: 0;
+        52% {
+            opacity: 1;
         }
     
         70% {
@@ -910,14 +916,14 @@ Media Queries
         
         100% {
             opacity: 0;
-            left: 140%;
+            left: 150%;
         }
     }
     
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: -35%;
+            left: -45%;
         }
     
         20% {
@@ -925,11 +931,11 @@ Media Queries
         }
     
         50% {
-            opacity: 1;
+            opacity: 0;
         }
     
         52% {
-            opacity: 0;
+            opacity: 1;
         }
     
         70% {
@@ -938,7 +944,7 @@ Media Queries
         
         100% {
             opacity: 0;
-            left: 170%;
+            left: 180%;
         }
     }
 }
