@@ -805,11 +805,11 @@ Media Queries
         }
     }
     .cloudDownArrow1 {
-        top: 30vh;
+        top: 32vh;
     }
 
     .cloudDownArrow2 {
-        top: 24vh;
+        top: 26vh;
     }
 
     @keyframes cloudDownArrow1 {
