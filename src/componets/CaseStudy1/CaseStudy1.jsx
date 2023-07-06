@@ -1,5 +1,5 @@
 import style from './CaseStudy1.module.css'
-import { FaLinkedin, FaTwitter, FaGithub} from 'react-icons/fa';
+import { FaLink, FaGithub} from 'react-icons/fa';
 import blossom from '../../assets/images/whiteBlossom.png'
 
 const CaseStudy1 = () => {
@@ -25,13 +25,10 @@ const CaseStudy1 = () => {
             <h4>LINKS</h4>
             <div className={style.caseStudyLinks}>
                   <div className={style.caseStudyLinkContainer}>
-                      <a href='https://www.linkedin.com/in/stephen-vizzusi-99882218b/' target="_blank"><FaLinkedin className={style.footerSocial}/></a>
+                      <a href='https://www.linkedin.com/in/stephen-vizzusi-99882218b/' target="_blank"><FaLink className={style.footerSocial}/></a>
                   </div>
                   <div className={style.caseStudyLinkContainer}>
                       <a href='https://github.com/svizzusi' target="_blank"><FaGithub className={style.footerSocial}/></a>
-                  </div>
-                  <div className={style.caseStudyLinkContainer}>
-                      <a href='https://twitter.com/StephenVizzusi' target="_blank"><FaTwitter className={style.footerSocial}/></a>
                   </div>
               </div>
           </div>
