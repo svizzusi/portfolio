@@ -30,7 +30,7 @@
 .cloudDownArrow1 {
     animation-name: cloudDownArrow1;
     position: absolute;
-    top: 330px;
+    top: 325px;
     font-size: 8.0rem;
     animation-duration: 25s;
     animation-iteration-count: infinite;
@@ -169,6 +169,15 @@ Media Queries
 }
 
 @media screen and (max-width:1250px) {   
+    @keyframes moveCloud {
+        0% {
+            left: -45%;
+        }
+    
+        100% {
+            left: 110%;
+        }
+    }
     .cloudDownArrow1 {
         top: 320px;
     }
@@ -176,7 +185,7 @@ Media Queries
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -17%;
+            left: -28%;
         }
     
         20% {
@@ -208,7 +217,7 @@ Media Queries
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: -10%;
+            left: -13%;
         }
     
         20% {
@@ -237,7 +246,7 @@ Media Queries
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -15%;
+            left: -25%;
         }
     
         20% {
@@ -291,10 +300,19 @@ Media Queries
     }
 }
 @media screen and (max-width:1024px) { 
+    @keyframes moveCloud {
+        0% {
+            left: -49%;
+        }
+    
+        100% {
+            left: 110%;
+        }
+    }
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -13%;
+            left: -20%;
         }
     
         20% {
@@ -315,7 +333,7 @@ Media Queries
         
         100% {
             opacity: 0;
-            left: 132%;
+            left: 127%;
         }
     }
     
@@ -348,10 +366,19 @@ Media Queries
     }
 }
 @media screen and (max-width:978px) { 
+    @keyframes moveCloud {
+        0% {
+            left: -51%;
+        }
+    
+        100% {
+            left: 110%;
+        }
+    }
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -15%;
+            left: -25%;
         }
     
         20% {
@@ -379,7 +406,7 @@ Media Queries
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: -4%;
+            left: -8%;
         }
     
         20% {
@@ -405,10 +432,19 @@ Media Queries
     }
 }
 @media screen and (max-width:878px) { 
+    @keyframes moveCloud {
+        0% {
+            left: -57%;
+        }
+    
+        100% {
+            left: 110%;
+        }
+    }
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -10%;
+            left: -40%;
         }
     
         20% {
@@ -439,7 +475,7 @@ Media Queries
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: -2%;
+            left: -10%;
         }
     
         20% {
@@ -509,7 +545,7 @@ Media Queries
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: -30%;
+            left: -32%;
         }
     
         20% {
@@ -538,7 +574,7 @@ Media Queries
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -44%;
+            left: -46%;
         }
     
         20% {
@@ -593,11 +629,11 @@ Media Queries
 }
 @media screen and (max-width:580px) {
     .cloudDownArrow2 {
-        top: 230px;
+        top: 240px;
     }
     @keyframes moveCloud {
         0% {
-            left: -75%;
+            left: -88%;
         }
     
         100% {
@@ -607,7 +643,7 @@ Media Queries
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -40%;
+            left: -50%;
         }
     
         20% {
@@ -635,7 +671,7 @@ Media Queries
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: -5%;
+            left: -30%;
         }
     
         20% {
@@ -669,7 +705,7 @@ Media Queries
         top: 130px;
     }
     .cloudDownArrow1 {
-        top: 290px;
+        top: 270px;
     }
 
     .cloudDownArrow2 {
@@ -717,7 +753,7 @@ Media Queries
     @keyframes cloudDownArrow2 {
         0% {
             opacity: 0;
-            left: -25%;
+            left: -29%;
         }
     
         20% {
@@ -743,10 +779,19 @@ Media Queries
     }
 }
 @media screen and (max-width:488px) {
+    @keyframes moveCloud {
+        0% {
+            left: -82%;
+        }
+    
+        100% {
+            left: 110%;
+        }
+    }
     @keyframes cloudDownArrow1 {
         0% {
             opacity: 0;
-            left: -44%;
+            left: -50%;
         }
     
         20% {

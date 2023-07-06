@@ -1,6 +1,6 @@
 .main {
     width: 100%;
-    height: 800px;
+    height: 900px;
     max-width: var(--maxWidth);
     margin: auto;
     padding: 0 20px;
@@ -49,13 +49,13 @@ Media Queries
 *****************************************************************/
 @media screen and (max-width: 760px) {
     .main {
-        height: 880px;
+        height: 900px;
     }
 }
 
 @media screen and (max-width: 568px) {
     .main {
-        height: 820px;
+        height: 900px;
     }
     
     
@@ -87,27 +87,27 @@ Media Queries
 
 @media screen and (max-width: 488px) {
     .main {
-        height: 870px;
+        height: 920px;
     }
 }
 @media screen and (max-width: 444px) {
     .main {
-        height: 900px;
+        height: 950px;
     }
 }
-@media screen and (max-width: 407px) {
-    .main {
-        height: 930px;
-    }
-}
-@media screen and (max-width: 351px) {
+@media screen and (max-width: 401px) {
     .main {
         height: 950px;
     }
 }
+@media screen and (max-width: 374px) {
+    .main {
+        height: 1050px;
+    }
+}
 @media screen and (max-width: 346px) {
     .main {
-        height: 1000px;
+        height: 1080px;
     }
 }
 
