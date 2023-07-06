@@ -1,0 +1,101 @@
+main {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: auto;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+hgroup {
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--heading);
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+
+.caseStudySection {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.caseStudyAbout {
+
+}
+.caseStudyAbout h3 {
+    font-size: var(--subHeading);
+    padding: 20px 0;
+}
+.caseStudyAbout p {
+    font-size: var(--p);
+    max-width: 700px;
+}
+
+.caseStudyTechnologies {
+    display: flex;
+    flex-direction: column;
+}
+
+.caseStudyTechnologies h4 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.caseStudyTechnologies ul {
+    padding: 0 30px;
+}
+.caseStudyTechnologies li {
+    font-size: 1.6rem;
+    padding: 4px ;
+}
+
+.caseStudyLinksContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.caseStudyLinks {
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.caseStudyLinkContainer a{
+    font-size: 2rem;
+    padding: 5px;
+    color: var(--white);
+    transition: .3s ease-in-out;
+}
+
+.caseStudyLinkContainer a:hover{
+    color: var(--risingSun);
+}
+
+.imageContainer {
+    width: 400px;
+}
+
+.caseStudyImprovments {
+    
+}
+
+.caseStudyImprovments h3 {
+    font-size: var(--subHeading);
+    padding: 20px 0;
+}
+.caseStudyImprovments p {
+    font-size: var(--p);
+    max-width: 700px;
+}
