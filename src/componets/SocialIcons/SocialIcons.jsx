@@ -12,7 +12,7 @@ const SocialIcons = () => {
             <div className={style.socialContainer}>
                 <a href='https://github.com/svizzusi' target="_blank"><FaGithub className={style.social}/></a>
             </div>
-            <div className={style.socialContainer}>
+            <div className={style.socialContainer} >
                 <a href='https://twitter.com/StephenVizzusi' target="_blank"><FiTwitter className={style.social}/></a>
             </div>
         </div>

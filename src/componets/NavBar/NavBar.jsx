@@ -4,13 +4,15 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 
-const NavBar = () => {
+const NavBar = (props) => {
     const [navExpanded, setNavExpanded] = useState(false)
+    
 
     const openNav = () => {
         setNavExpanded(!navExpanded)
     }
-    
+    const closeNav = () => setNavExpanded(false)
+
     return (
         <header>
             <nav className={style.nav}>
@@ -19,16 +21,25 @@ const NavBar = () => {
                 className={navExpanded ? `${style.navLinks} ${style.expanded}` : style.navLinks}
                 >
                     <li>
-                    <Link to={'/'}>Home</Link>
+                        <span 
+                            to={'/'}
+                            onClick={closeNav}
+                        >Home</span>
                     </li>
                     <li>
-                        <Link to={'/#projectSection'}>Projects</Link>
+                        <span 
+                            onClick={props.scrollToProject}
+                        >Projects</span>
                     </li>
                     <li>
-                        <Link to={'/#aboutSection'}>About</Link>
+                        <span 
+                            onClick={props.scrollToAbout}
+                        >About</span>
                     </li>
                     <li>
-                        <Link to={'/#contactSection'}>Contact</Link>
+                        <span 
+                            onClick={props.scrollToContact}
+                        >Contact</span>
                     </li>
                 </ul>
                 <div 

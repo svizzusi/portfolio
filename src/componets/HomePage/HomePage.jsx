@@ -6,12 +6,12 @@ import Form from "../Form/Form"
 import Hero from "../Hero/Hero"
 import Projects from "../Projects/Projects"
 
-const HomePage = () => {
+const HomePage = ({projectSectionRef}) => {
   return (
     <>
         <Hero />
         <CloudTop />
-        <CloudBottom />
+        <CloudBottom projectSectionRef={projectSectionRef}/>
         <Projects />
         <About />
         <Form />
