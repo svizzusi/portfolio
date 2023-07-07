@@ -9,6 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
+
 // project scroll
 const App = () => {
   const navigate = useNavigate()

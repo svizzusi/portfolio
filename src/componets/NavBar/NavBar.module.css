@@ -33,13 +33,13 @@ header {
     gap: 20px;
 }
 
-.navLinks li a{
+.navLinks li span{
     text-decoration: none;
     font-size: var(--links);
     color: var(--white);
 }
 
-.navLinks li a:hover{
+.navLinks li span:hover{
     text-decoration:line-through;
     color: var(--risingSun);
     transition: .3s ease-in-out;
