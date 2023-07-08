@@ -7,6 +7,7 @@ import Hero from "../Hero/Hero"
 import Projects from "../Projects/Projects"
 
 const HomePage = ({projectSectionRef, aboutSectionRef, contactSectionRef}) => {
+
   return (
     <>
         <Hero />

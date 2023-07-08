@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
 
-// project scroll
+
 const App = () => {
   const navigate = useNavigate()
   const projectSectionRef = useRef()
@@ -18,6 +18,7 @@ const App = () => {
   const contactSectionRef = useRef()
   const location = useLocation();
 
+  // project scroll
   const scrollProjectSectionRef = () => {
     projectSectionRef.current.scrollIntoView({
       behavior: 'smooth',
@@ -37,6 +38,8 @@ useEffect(() => {
   }
 }, [location.state]);
   
+
+
 // About scroll
 const scrollAboutSectionRef = () => {
     aboutSectionRef.current.scrollIntoView({
@@ -88,7 +91,13 @@ useEffect(() => {
     <>
         <NavBar scrollToProject={scrollToProject} scrollToAbout={scrollToAbout} scrollToContact={scrollToContact}/>
         <Routes>
-          <Route path={'/'} element={<HomePage projectSectionRef={projectSectionRef}/>}></Route>
+          <Route 
+              path={'/'} 
+              element={<HomePage 
+              projectSectionRef={projectSectionRef}
+              aboutSectionRef={aboutSectionRef}
+              contactSectionRef={contactSectionRef}
+            />}></Route>
           <Route path={'/case-study-1'} element={<CaseStudy1 />}></Route>
           <Route path={'/case-study-2'} element={<CaseStudy2 />}></Route>
           <Route path={'/case-study-3'} element={<CaseStudy3 />}></Route>
