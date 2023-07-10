@@ -9,8 +9,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
-
-
 const App = () => {
   const navigate = useNavigate()
   const projectSectionRef = useRef()
@@ -38,8 +36,6 @@ useEffect(() => {
   }
 }, [location.state]);
   
-
-
 // About scroll
 const scrollAboutSectionRef = () => {
     aboutSectionRef.current.scrollIntoView({
@@ -85,7 +81,6 @@ useEffect(() => {
     duration: 1000,
     easing: 'ease-in-sine'
   });
-
 
   return (
     <>
