@@ -12,7 +12,7 @@
     position: absolute;
     bottom: 60px;
     animation-name: moveCloud1;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -22,7 +22,7 @@
     position: absolute;
     bottom: 20px;
     animation-name: moveCloud2;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -31,7 +31,7 @@
     position: absolute;
     bottom: 50px;
     animation-name: moveSun;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }

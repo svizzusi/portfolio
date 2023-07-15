@@ -12,7 +12,7 @@
     position: absolute;
     top: 130px;
     animation-name: moveCloud;
-    animation-duration: 25s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -32,7 +32,7 @@
     position: absolute;
     top: 325px;
     font-size: 8.0rem;
-    animation-duration: 25s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     color: var(--risingSun);
@@ -71,7 +71,7 @@
     position: absolute;
     top: 255px;
     font-size: 8.0rem;
-    animation-duration: 25s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     color: var(--risingSun);
