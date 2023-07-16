@@ -36,11 +36,13 @@ h2 {
 }
 .caseStudyAbout h3 {
     font-size: var(--subHeading);
+    color: var(--risingSun);
     padding: 20px 0;
 }
 .caseStudyAbout p {
     font-size: var(--p);
     max-width: 700px;
+    padding: 20px 0;
 }
 
 .caseStudyTechnologies {
@@ -49,6 +51,7 @@ h2 {
 }
 
 .caseStudyTechnologies h4 {
+    color: var(--risingSun);
     font-size: 2rem;
     padding-bottom: 20px;
 }
@@ -93,6 +96,7 @@ h2 {
 
 .caseStudyImprovments h3 {
     font-size: var(--subHeading);
+    color: var(--risingSun);
     padding: 20px 0;
 }
 .caseStudyImprovments p {

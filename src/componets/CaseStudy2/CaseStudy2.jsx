@@ -9,6 +9,9 @@ const CaseStudy2 = () => {
         <h1>King Motors</h1>
         <h2>King Motors: E-Commerce Website</h2>
       </hgroup>
+      <div className={style.imageContainer}>
+        <img src={kingMotors} alt="website gif"/>
+      </div>
       <section className={style.caseStudySection}>
         <div className={style.caseStudyAbout}>
           <h3>About this project</h3>
@@ -18,9 +21,9 @@ const CaseStudy2 = () => {
         <div className={style.caseStudyTechnologies}>
           <h4>TECHNOLOGIES</h4>
           <ul>
-            <li>React</li>
-            <li>Tailwind</li>
-            <li>Node</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
           </ul>
           <div className={style.caseStudyLinksContainer}>
             <h4>LINKS</h4>
@@ -34,13 +37,6 @@ const CaseStudy2 = () => {
               </div>
           </div>
         </div>
-      </section>
-      <div className={style.imageContainer}>
-        <img src={kingMotors} alt="Flower"/>
-      </div>
-      <section className={style.caseStudyImprovments}>
-        <h3>Future Improvements</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non deserunt a accusamus! Consequatur, odio. Repellendus, ad. Esse nostrum accusamus est!</p>
       </section>
     </main>
   )

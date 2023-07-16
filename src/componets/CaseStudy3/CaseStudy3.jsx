@@ -9,6 +9,9 @@ const CaseStudy3 = () => {
         <h1>Denta Clinic</h1>
         <h2>Denta Clinic: social media app</h2>
       </hgroup>
+      <div className={style.imageContainer}>
+        <img src={dentaClinic} alt="Denta Gif"/>
+      </div>
       <section className={style.caseStudySection}>
         <div className={style.caseStudyAbout}>
           <h3>About this project</h3>
@@ -34,13 +37,6 @@ const CaseStudy3 = () => {
               </div>
           </div>
         </div>
-      </section>
-      <div className={style.imageContainer}>
-        <img src={dentaClinic} alt="Flower"/>
-      </div>
-      <section className={style.caseStudyImprovments}>
-        <h3>Future Improvements</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non deserunt a accusamus! Consequatur, odio. Repellendus, ad. Esse nostrum accusamus est!</p>
       </section>
     </main>
   )
