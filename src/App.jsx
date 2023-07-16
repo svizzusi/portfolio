@@ -11,10 +11,31 @@ import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
 const App = () => {
   const navigate = useNavigate()
+  const homeSectionRef = useRef()
   const projectSectionRef = useRef()
   const aboutSectionRef = useRef()
   const contactSectionRef = useRef()
   const location = useLocation();
+
+    // Home scroll
+    const scrollHomeSectionRef = () => {
+      homeSectionRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'nearest',
+      });
+    }
+    const scrollToHome = () => {
+      navigate('/', {
+        state: { scrollToHomeSection: true },
+      });
+    };
+    
+  useEffect(() => {
+    if (location.state?.scrollToHomeSection) {
+      scrollHomeSectionRef();
+    }
+  }, [location.state]);
 
   // project scroll
   const scrollProjectSectionRef = () => {
@@ -84,11 +105,16 @@ useEffect(() => {
 
   return (
     <>
-        <NavBar scrollToProject={scrollToProject} scrollToAbout={scrollToAbout} scrollToContact={scrollToContact}/>
+        <NavBar 
+          scrollToHome={scrollToHome} 
+          scrollToProject={scrollToProject} 
+          scrollToAbout={scrollToAbout} 
+          scrollToContact={scrollToContact}/>
         <Routes>
           <Route 
               path={'/'} 
               element={<HomePage 
+              homeSectionRef={homeSectionRef}
               projectSectionRef={projectSectionRef}
               aboutSectionRef={aboutSectionRef}
               contactSectionRef={contactSectionRef}

@@ -1,9 +1,9 @@
 import style from './Hero.module.css'
 import SocialIcons from '../SocialIcons/SocialIcons'
 
-const Hero = () => {
+const Hero = (props) => {
         return (
-        <main className={style.main}>
+        <main className={style.main} ref={props.homeSectionRef}>
             <div className={style.heroText}>
                 <h1>Fullstack <span>Software Engineer</span></h1>
                 <h2>Hello! I'm STEPHEN VI<span>ZZ</span>USI</h2>
