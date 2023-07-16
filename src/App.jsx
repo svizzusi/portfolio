@@ -1,7 +1,7 @@
 import { useRef, useEffect} from "react";
-import CaseStudy1 from "./componets/CaseStudy1/CaseStudy1";
-import CaseStudy2 from "./componets/CaseStudy2/CaseStudy2";
-import CaseStudy3 from "./componets/CaseStudy3/CaseStudy3";
+import CaseStudy1 from "./componets/CaseStudy1/CaseStudy1.jsx";
+import CaseStudy2 from "./componets/CaseStudy2/CaseStudy2.jsx";
+import CaseStudy3 from "./componets/CaseStudy3/CaseStudy3.jsx";
 import Footer from "./componets/Footer/Footer"
 import HomePage from "./componets/HomePage/HomePage";
 import NavBar from "./componets/NavBar/NavBar"
