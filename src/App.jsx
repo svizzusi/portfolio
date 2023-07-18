@@ -9,6 +9,14 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
 
+const ScrollToTop = () => {
+  const location = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location])
+  return null
+}
+
 const App = () => {
   const navigate = useNavigate()
   const homeSectionRef = useRef()
@@ -110,6 +118,7 @@ useEffect(() => {
           scrollToProject={scrollToProject} 
           scrollToAbout={scrollToAbout} 
           scrollToContact={scrollToContact}/>
+          <ScrollToTop />
         <Routes>
           <Route 
               path={'/'} 
