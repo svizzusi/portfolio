@@ -4,20 +4,20 @@ import { Link } from 'react-router-dom'
 
 const Project = (props) => {
   return (
-    <div className={style.projectsContainer} data-aos={`${props.project.dataAOS}`}> 
-        <img className={style.projectImage} src={props.project.img} alt={props.project.title}/>
+    <div className={style.projectsContainer} data-aos={`${props.dataAOS}`}> 
+        <img className={style.projectImage} src={props.img} alt={props.title}/>
         <div className={style.projectBox}>
-            <h3>{props.project.title}</h3>
-            <p>{props.project.details}</p>
+            <h3>{props.title}</h3>
+            <p>{props.details}</p>
             <div className={style.lang}>
-                <span>{props.project.lang1}</span>
-                <span>{props.project.lang2}</span>
-                <span>{props.project.lang3}</span>
+                <span>{props.lang1}</span>
+                <span>{props.lang2}</span>
+                <span>{props.lang3}</span>
             </div>
             <div className={style.projectBtns}>
-                <Link to={props.project.link} target="_blank" rel="noopener noreferrer"><button>CASE STUDY</button></Link>
-                <a href={props.project.live} target="_blank" rel="noopener noreferrer"><button>LIVE</button></a>
-                <a href={props.project.github} target="_blank" rel="noopener noreferrer"><button>GITHUB</button></a>
+                <Link to={props.link} target="_blank" rel="noopener noreferrer"><button>CASE STUDY</button></Link>
+                <a href={props.live} target="_blank" rel="noopener noreferrer"><button>LIVE</button></a>
+                <a href={props.github} target="_blank" rel="noopener noreferrer"><button>GITHUB</button></a>
             </div>
         </div>
     </div>
