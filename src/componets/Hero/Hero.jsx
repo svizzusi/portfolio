@@ -1,5 +1,6 @@
 import style from './Hero.module.css'
 import SocialIcons from '../SocialIcons/SocialIcons'
+import { Link } from 'react-router-dom'
 
 const Hero = (props) => {
         return (
@@ -9,6 +10,7 @@ const Hero = (props) => {
                 <h2>Hello! I'm STEPHEN VI<span>ZZ</span>USI</h2>
                 <p>I'm a creative Full Stack Developer from San Jose, CA, skilled in delivering high-quality products. My focus is on providing the best possible user experience while interacting with the UI. I specialize in JavaScript, React, and CSS for front-end development, but I also excel in back-end solutions and testing.</p>
                 <SocialIcons />
+                <Link to={'/case-study-1'}>case study</Link>
             </div>
         </main>
     )
