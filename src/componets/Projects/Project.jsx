@@ -15,7 +15,7 @@ const Project = (props) => {
                 <span>{props.project.lang3}</span>
             </div>
             <div className={style.projectBtns}>
-                <Link to={props.project.link} target="_blank" rel="noopener noreferrer"><button>CASE STUDY</button></Link>
+                <Link to={props.project.link} rel="noopener noreferrer"><button>CASE STUDY</button></Link>
                 <a href={props.project.live} target="_blank" rel="noopener noreferrer"><button>LIVE</button></a>
                 <a href={props.project.github} target="_blank" rel="noopener noreferrer"><button>GITHUB</button></a>
             </div>
