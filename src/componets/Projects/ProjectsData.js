@@ -10,7 +10,7 @@ export default [
         lang1:"REACT",
         lang2:"TAILWIND",
         lang3:"NODE",
-        link:'case-study-1',
+        link:'/case-study-1',
         live:'https://stephenvizzusi.vercel.app/',
         github:'https://stephenvizzusi.vercel.app/',
         dataAOS: 'zoom-in-up'
@@ -24,7 +24,7 @@ export default [
         lang1:"JAVASCRIPT",
         lang2:"CSS",
         lang3:"HTML",
-        link:'case-study-2',
+        link:'/case-study-2',
         live:'https://king-motors.netlify.app/',
         github:'https://github.com/svizzusi/king-motors',
         dataAOS: 'zoom-in-down'
@@ -37,7 +37,7 @@ export default [
         lang1:"JAVASCRIPT",
         lang2:"CSS",
         lang3:"HTML",
-        link:'case-study-3',
+        link:'/case-study-3',
         live:'https://dentaclinic.netlify.app/',
         github:'https://github.com/svizzusi/denta-clinic',
         dataAOS: 'zoom-in-up'

@@ -119,9 +119,9 @@ useEffect(() => {
               aboutSectionRef={aboutSectionRef}
               contactSectionRef={contactSectionRef}
             />}></Route>
-          <Route path={'/case-study-1'} element={<CaseStudy1 />}></Route>
-          <Route path={'/case-study-2'} element={<CaseStudy2 />}></Route>
-          <Route path={'/case-study-3'} element={<CaseStudy3 />}></Route>
+          <Route path={'case-study-1'} element={<CaseStudy1 />}></Route>
+          <Route path={'case-study-2'} element={<CaseStudy2 />}></Route>
+          <Route path={'case-study-3'} element={<CaseStudy3 />}></Route>
         </Routes>
         <Footer />
     </>
