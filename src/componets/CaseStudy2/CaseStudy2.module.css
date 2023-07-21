@@ -31,9 +31,6 @@ h2 {
     padding-top: 30px;
 }
 
-.caseStudyAbout {
-
-}
 .caseStudyAbout h3 {
     font-size: var(--subHeading);
     color: var(--risingSun);
@@ -90,9 +87,6 @@ h2 {
     width: 400px;
 }
 
-.caseStudyImprovments {
-    
-}
 
 .caseStudyImprovments h3 {
     font-size: var(--subHeading);
