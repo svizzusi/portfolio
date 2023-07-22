@@ -31,7 +31,9 @@ header {
     list-style: none;
     display: flex;
     gap: 20px;
+    cursor: pointer;
 }
+
 
 .navLinks li span{
     text-decoration: none;
