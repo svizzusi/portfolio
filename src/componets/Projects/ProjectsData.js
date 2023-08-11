@@ -6,7 +6,7 @@ export default [
         id: 1,
         img:img1,
         title:"SmileSupply",
-        details:"COMING SOON: Our innovative full-stack inventory tracking system, developed using MERN stack revolutionizes inventory management for dental offices. With our user-friendly interface, dental offices can effortlessly input and manage their product inventory.",
+        details:"COMING SOON: Our innovative inventory tracking system revolutionizes inventory management for dental offices. With our user-friendly interface, dental offices can effortlessly input and manage their product inventory.",
         lang1:"REACT",
         lang2:"MongoDB",
         lang3:"NODE",
