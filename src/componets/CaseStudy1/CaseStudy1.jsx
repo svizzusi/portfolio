@@ -6,8 +6,8 @@ const CaseStudy1 = () => {
   return (
     <main>
       <hgroup>
-        <h1>Be Well</h1>
-        <h2>Be Well: Social Media App</h2>
+        <h1>SmileSupply</h1>
+        <h2>Dental Innovatory Tracking System</h2>
       </hgroup>
       <div className={style.imageContainer}>
         <img src={blossom} alt="Flower"/>
@@ -15,13 +15,13 @@ const CaseStudy1 = () => {
       <section className={style.caseStudySection}>
         <div className={style.caseStudyAbout}>
           <h3>About this project</h3>
-          <p>"Be Well is a social media app where people can connect with others about their fitness, diet, meditation goals, and overall well-being."</p>
+          <p>"SmileSupply is our innovative full-stack inventory tracking system, developed using React, Node, Express, MongoDB, and Tailwind, revolutionizes inventory management for dental offices. With our user-friendly interface, dental offices can effortlessly input and manage their product inventory. What sets our app apart is the utilization of a cutting-edge algorithm tailored to each product, enabling precise tracking of usage patterns. This intelligent system ensures timely automatic reordering, adapting to the specific rate at which products are consumed. By preventing the wastage of expired items, dental offices can significantly reduce costs. Furthermore, our app guarantees that your inventory is always aligned with demand, optimizing your supply chain and ensuring you have the right products on hand to meet the unique needs of each dental office. "</p>
         </div>
         <div className={style.caseStudyTechnologies}>
           <h4>TECHNOLOGIES</h4>
           <ul>
             <li>React</li>
-            <li>Tailwind</li>
+            <li>MongoDB</li>
             <li>Node</li>
           </ul>
           <div className={style.caseStudyLinksContainer}>
