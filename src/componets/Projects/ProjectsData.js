@@ -5,8 +5,8 @@ export default [
     {
         id: 1,
         img:img1,
-        title:"COMING SOON:SmileSupply",
-        details:"Our innovative full-stack inventory tracking system, developed using React, Node, Express, MongoDB, and Tailwind, revolutionizes inventory management for dental offices. With our user-friendly interface, dental offices can effortlessly input and manage their product inventory.",
+        title:"SmileSupply",
+        details:"COMING SOON: Our innovative full-stack inventory tracking system, developed using React, Node, Express, MongoDB, and Tailwind, revolutionizes inventory management for dental offices. With our user-friendly interface, dental offices can effortlessly input and manage their product inventory.",
         lang1:"REACT",
         lang2:"MongoDB",
         lang3:"NODE",
