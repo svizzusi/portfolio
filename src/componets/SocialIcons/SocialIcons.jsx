@@ -7,7 +7,7 @@ const SocialIcons = () => {
     return (
         <div className={style.socialSection}>
             <div className={style.socialContainer}>
-               <a href='https://www.linkedin.com/in/stephen-vizzusi-99882218b/' target="_blank"> <FiLinkedin className={style.social}/></a>
+               <a href='https://www.linkedin.com/in/stephen-vizzusi' target="_blank"> <FiLinkedin className={style.social}/></a>
             </div>
             <div className={style.socialContainer}>
                 <a href='https://github.com/svizzusi' target="_blank"><FaGithub className={style.social}/></a>

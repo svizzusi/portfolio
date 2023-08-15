@@ -8,7 +8,7 @@ const Footer = () => {
             <h3>Follow Me</h3>
             <div className={style.footerLinks}>
                 <div className={style.footerContainer}>
-                     <a href='https://www.linkedin.com/in/stephen-vizzusi-99882218b/' target="_blank"><FaLinkedin className={style.footerSocial}/></a>
+                     <a href='https://www.linkedin.com/in/stephen-vizzusi' target="_blank"><FaLinkedin className={style.footerSocial}/></a>
                 </div>
                 <div className={style.footerContainer}>
                     <a href='https://github.com/svizzusi' target="_blank"><FaGithub className={style.footerSocial}/></a>
