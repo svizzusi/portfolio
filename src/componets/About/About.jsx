@@ -25,7 +25,6 @@ const About = ({aboutSectionRef}) => {
                   className={style.aboutButton}>
                 <FiDownload className={style.resume}/> 
                 Resume</button>
-                <a href={Resume} download='StephenVizzusiResume'>Download Resume</a>
             </div>
         </section>
     </div>
