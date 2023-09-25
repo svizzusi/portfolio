@@ -1,6 +1,6 @@
 import style from './CaseStudy1.module.css'
 import { FaLink, FaGithub} from 'react-icons/fa';
-import blossom from '../../assets/images/whiteBlossom.png'
+import smileSupply from '../../assets/images/smileSupply.gif'
 
 const CaseStudy1 = () => {
   return (
@@ -10,7 +10,7 @@ const CaseStudy1 = () => {
         <h2>Dental Innovatory Tracking System</h2>
       </hgroup>
       <div className={style.imageContainer}>
-        <img src={blossom} alt="Flower"/>
+        <img src={smileSupply} alt="Flower"/>
       </div>
       <section className={style.caseStudySection}>
         <div className={style.caseStudyAbout}>
