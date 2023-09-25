@@ -11,7 +11,6 @@ const About = ({aboutSectionRef}) => {
     window.open(fileUrl, "_blank")
     }
     
-
   return (
     <div id='aboutSection' ref={aboutSectionRef} className={style.aboutContainer}>
         <section className={style.aboutSection}>
