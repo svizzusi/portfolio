@@ -15,7 +15,7 @@ const CaseStudy2 = () => {
       <section className={style.caseStudySection}>
         <div className={style.caseStudyAbout}>
           <h3>About this project</h3>
-          <p>"King Motors showcases a meticulously crafted, fully responsive E-Commerce web application with a clean UI experience. The platform presents an exquisite add-to-cart functionality, customer support, and a booking system."</p>
+          <p>King Motors showcases a meticulously crafted, fully responsive E-Commerce web application with a clean UI experience. The platform presents an exquisite add-to-cart functionality, customer support, and a booking system.</p>
           <p>I created this project to showcase my software engineering UI skills and highlighting my passion for classic cars and unique frontend development. The website offers a seamless user experience through a sleek checkout form, enhanced by JavaScript functionalities such as form validation and a submission pop-up. To showcase a collection of classic cars, I implemented a dynamic car inventory API, enabling users to populate the checkout page with a single click. The inventory is visually engaging, with hover effects that reveal and conceal captivating backgrounds. To improve navigation, I incorporated a stylish hamburger menu, ensuring easy exploration of different sections on various devices. One of my proudest achievements is the interactive pop-up modal for submissions, providing users with valuable feedback upon information submission. I encourage you to visit King Motors and personally experience these exciting features.</p>
         </div>
         <div className={style.caseStudyTechnologies}>

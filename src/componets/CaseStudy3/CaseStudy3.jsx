@@ -15,7 +15,7 @@ const CaseStudy3 = () => {
       <section className={style.caseStudySection}>
         <div className={style.caseStudyAbout}>
           <h3>About this project</h3>
-          <p>"Denta Clinic website features a responsive design, integrated booking system, email newsletter capabilities, and customer support, showcasing a modern user interface, convenience, and exceptional detail."</p>
+          <p>Denta Clinic website features a responsive design, integrated booking system, email newsletter capabilities, and customer support, showcasing a modern user interface, convenience, and exceptional detail.</p>
           <p>Introducing Denta Clinic, a dental office website that I recently deployed as a freelance project. This website boasts a responsive design, offering a seamless user experience across various devices. With an integrated booking system, patients can easily schedule appointments online, streamlining the process and enhancing convenience. The website also incorporates email newsletter capabilities, allowing the dental office to engage with patients and provide valuable updates. Furthermore, customer support is prioritized, ensuring that visitors can easily find the information they need and receive assistance when required. The modern user interface of Denta Clinic reflects attention to detail and a commitment to delivering a professional and welcoming experience.</p>
         </div>
         <div className={style.caseStudyTechnologies}>

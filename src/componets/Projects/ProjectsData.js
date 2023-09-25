@@ -5,7 +5,7 @@ export default [
     {
         id: 1,
         img:smileSupply,
-        title:"SmileSupply",
+        title:"Smile Supply",
         details:"COMING SOON: Our innovative inventory tracking system revolutionizes inventory management for dental offices. With our user-friendly interface, dental offices can effortlessly input and manage their product inventory.",
         lang1:"REACT",
         lang2:"MongoDB",
