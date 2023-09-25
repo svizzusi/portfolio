@@ -1,10 +1,10 @@
-import img1 from '../../assets/images/whiteBlossom.png'
+import smileSupply from '../../assets/images/smileSupply.gif'
 import kingMotors from '../../assets/images/kingMotors.gif'
 import dentaClinic from '../../assets/images/dentaClinic.gif'
 export default [
     {
         id: 1,
-        img:img1,
+        img:smileSupply,
         title:"SmileSupply",
         details:"COMING SOON: Our innovative inventory tracking system revolutionizes inventory management for dental offices. With our user-friendly interface, dental offices can effortlessly input and manage their product inventory.",
         lang1:"REACT",
