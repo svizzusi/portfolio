@@ -11,8 +11,8 @@ export default [
         lang2:"MongoDB",
         lang3:"NODE",
         link:'/case-study-1',
-        live:'https://stephenvizzusi.vercel.app/',
-        github:'https://stephenvizzusi.vercel.app/',
+        live:'https://smilesupply.net',
+        github:'https://github.com/svizzusi/smileSupplyFE',
         dataAOS: 'zoom-in-up'
 
     },
