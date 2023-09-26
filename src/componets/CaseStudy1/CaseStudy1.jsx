@@ -11,7 +11,7 @@ const CaseStudy1 = () => {
         <h2>Dental Innovatory Tracking System</h2>
       </hgroup>
       <div className={style.imageContainer}>
-        <img src={smileSupply} alt="smile supply"/>
+        <img src={smileSupply} alt="Smile Supply"/>
       </div>
       <section className={style.caseStudySection}>
         <div className={style.caseStudyAbout}>
@@ -36,10 +36,10 @@ const CaseStudy1 = () => {
             <h4>LINKS</h4>
             <div className={style.caseStudyLinks}>
                   <div className={style.caseStudyLinkContainer}>
-                      <a href='https://www.linkedin.com/in/stephen-vizzusi-99882218b/' target="_blank"><FaLink className={style.footerSocial}/></a>
+                      <a href='https://smilesupply.net' target="_blank"><FaLink className={style.footerSocial}/></a>
                   </div>
                   <div className={style.caseStudyLinkContainer}>
-                      <a href='https://github.com/svizzusi' target="_blank"><FaGithub className={style.footerSocial}/></a>
+                      <a href='https://github.com/svizzusi/smileSupplyFE' target="_blank"><FaGithub className={style.footerSocial}/></a>
                   </div>
               </div>
           </div>
