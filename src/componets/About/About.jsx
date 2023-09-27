@@ -2,7 +2,7 @@ import React from 'react'
 import style from './About.module.css'
 import { FiDownload } from 'react-icons/fi'
 import profilePic from '../../assets/images/profilePic.jpg'
-import Resume from '../../assets/images/StephenVizzusiResume.pdf'
+import Resume from '../../assets/images/StephenVizzusiLeapResume.pdf'
 
 const About = ({aboutSectionRef}) => {
 
