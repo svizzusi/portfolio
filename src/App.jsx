@@ -113,26 +113,26 @@ useEffect(() => {
 
   return (
     <>
-        <NavBar 
-          scrollToHome={scrollToHome} 
-          scrollToProject={scrollToProject} 
-          scrollToAbout={scrollToAbout} 
-          scrollToContact={scrollToContact}/>
-          <ScrollToTop />
-        <Routes>
-          <Route 
-              path={'/'} 
-              element={<HomePage 
-              homeSectionRef={homeSectionRef}
-              projectSectionRef={projectSectionRef}
-              aboutSectionRef={aboutSectionRef}
-              contactSectionRef={contactSectionRef}
-            />}></Route>
-          <Route path={'case-study-1'} element={<CaseStudy1 />}></Route>
-          <Route path={'case-study-2'} element={<CaseStudy2 />}></Route>
-          <Route path={'case-study-3'} element={<CaseStudy3 />}></Route>
-        </Routes>
-        <Footer />
+      <NavBar 
+        scrollToHome={scrollToHome} 
+        scrollToProject={scrollToProject} 
+        scrollToAbout={scrollToAbout} 
+        scrollToContact={scrollToContact}/>
+        <ScrollToTop />
+      <Routes>
+        <Route 
+            path={'/'} 
+            element={<HomePage 
+            homeSectionRef={homeSectionRef}
+            projectSectionRef={projectSectionRef}
+            aboutSectionRef={aboutSectionRef}
+            contactSectionRef={contactSectionRef}
+          />}></Route>
+        <Route path={'case-study-1'} element={<CaseStudy1 />}></Route>
+        <Route path={'case-study-2'} element={<CaseStudy2 />}></Route>
+        <Route path={'case-study-3'} element={<CaseStudy3 />}></Route>
+      </Routes>
+      <Footer />
     </>
   )
 }
