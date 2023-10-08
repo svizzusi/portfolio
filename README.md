@@ -6,6 +6,13 @@ Welcome to the README for my portfolio website built with React. This website se
 
 My portfolio website is designed to provide visitors with an overview of my background, skills, and the projects I have worked on. It aims to highlight my abilities as a React developer and showcase the value I can bring to potential collaborations.
 
+## Installation
+
+1. Clone the repo onto your local machine.
+2. Enter `npm install` to download and install the dependencies.
+3. Enter `npm run dev` to run the local server.
+4. Access the site using the URL provided: `http://localhost:5173/`.
+
 ## Features
 
 My portfolio website includes several features:
