@@ -9,8 +9,8 @@ const CaseStudy2 = () => {
         <h1>King Motors</h1>
         <h2>King Motors: E-Commerce Website</h2>
       </hgroup>
-      <div className={style.imageContainer}>
-        <img src={kingMotors} alt="website gif"/>
+      <div>
+        <img className={style.imageContainer} src={kingMotors} alt="website gif"/>
       </div>
       <section className={style.caseStudySection}>
         <div className={style.caseStudyAbout}>

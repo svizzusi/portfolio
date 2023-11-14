@@ -6,7 +6,7 @@ export default [
         id: 1,
         img:smileSupply,
         title:"Smile Supply",
-        details:"COMING SOON: Our innovative inventory tracking system revolutionizes inventory management for dental offices. With our user-friendly interface, dental offices can effortlessly input and manage their product inventory.",
+        details:"Innovative inventory tracking system revolutionizes product management with an algorithmic reordering reminder specific for each products needs. This ensures that offices never run out of supplies, prevents spoilage and saves time and money!",
         lang1:"REACT",
         lang2:"MongoDB",
         lang3:"NODE",

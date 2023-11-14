@@ -118,7 +118,7 @@ useEffect(() => {
         scrollToProject={scrollToProject} 
         scrollToAbout={scrollToAbout} 
         scrollToContact={scrollToContact}/>
-        <ScrollToTop />
+      <ScrollToTop />
       <Routes>
         <Route 
             path={'/'} 

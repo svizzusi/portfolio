@@ -66,6 +66,26 @@ h2 {
     padding-top: 20px;
 }
 
+.loomlink {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.loomlink a {
+    font-size: 2rem;
+    padding: 5px;
+    color: var(--white);
+    transition: .3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.loomlink a:hover{
+    color: var(--risingSun);
+}
+
 .caseStudyLinks {
     display: flex;
     gap: 10px;
@@ -84,7 +104,8 @@ h2 {
 }
 
 .imageContainer {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
