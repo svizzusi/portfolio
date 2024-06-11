@@ -9,7 +9,7 @@ const FormComponent = () => {
     const formRef = useRef()
     const sendEmail = (event) => {
         event.preventDefault()
-        emailjs.sendForm('service_iznybsu', 'template_ojdq00o', formRef.current, 'If7t9Q2qS_tvKYRZR')
+        emailjs.sendForm('service_q88s4cc', 'template_ojdq00o', formRef.current, '5hZSQWYNs_5FZA1md')
         .then((result) => {
             console.log(result.text)
             toast.success('Message Sent', {
