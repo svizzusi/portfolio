@@ -6,7 +6,7 @@ export default [
         id: 1,
         img:smileSupply,
         title:"Smile Supply",
-        details:"Innovative inventory tracking system revolutionizes product management with an algorithmic reordering reminder specific for each products needs. This ensures that offices never run out of supplies, prevents spoilage and saves time and money!",
+        details:"An innovative inventory tracking system revolutionizes product management with algorithmic reordering reminders tailored to each product, ensuring offices never run out of supplies, preventing spoilage, and saving time and money!",
         lang1:"REACT",
         lang2:"MongoDB",
         lang3:"NODE",

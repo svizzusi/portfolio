@@ -17,7 +17,10 @@ const CaseStudy1 = () => {
       <section className={style.caseStudySection}>
         <div className={style.caseStudyAbout}>
           <h3>About this project</h3>
-          <p>SmileSupply is our innovative full-stack inventory tracking system, developed using React, Node, Express, MongoDB, and Tailwind, revolutionizes inventory management for dental offices. With our user-friendly interface, dental offices can effortlessly input and manage their product inventory. What sets our app apart is the utilization of a cutting-edge algorithm tailored to each product, enabling precise tracking of usage patterns. This intelligent system ensures timely automatic reordering, adapting to the specific rate at which products are consumed. By preventing the wastage of expired items, dental offices can significantly reduce costs. Furthermore, our app guarantees that your inventory is always aligned with demand, optimizing your supply chain and ensuring you have the right products on hand to meet the unique needs of each dental office.</p>
+          <p>SmileSupply is an inventory tracking system developed using React, Redux, NodeJs, Express, MongoDB, and Tailwind. The application redefines product inventory management, and patient appointment bookings for dental offices.</p>
+          <p>The application has a user-friendly interface which makes it easy for inventory management. Dental offices can effortlessly input and manage their product inventory. What sets the application apart is the use of an algorithm tailored to each product, which enables precise tracking of usage patterns.</p>
+          <p>The intelligent system of the application ensures timely automatic reordering, adapting to the specific rate at which products are consumed. This system helps to prevent wastage of expired items which in turn reduce costs significantly. </p>
+          <p>Furthermore, the application guarantees that your inventory is always aligned with demand, optimizing your supply chain and ensuring you have the right products on hand to meet the needs of every dental office.</p>
           <p className={style.loomlink}>Check out a the demo video here: <a href='https://www.loom.com/share/516243a3716c48a2b5aae8892d03b6e2' target="_blank">Loom<SiLoom className={style.footerSocial}/></a></p>
           <div className={style.imageContainer2}>
             <img  

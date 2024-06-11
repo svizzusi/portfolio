@@ -44,7 +44,7 @@ const FormComponent = () => {
             <input type='text' name='user_name' placeholder='Name' required/>
             <input type='email' name='user_email' placeholder='Email' required/>
             <textarea name='user_message' placeholder='Write message...' required></textarea>
-            <button type='submit'>Submit</button>
+            <button type='submit'>Shoot</button>
         </form>
         <ToastContainer />
     </>

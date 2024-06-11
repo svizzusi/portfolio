@@ -17,7 +17,7 @@ const About = ({aboutSectionRef}) => {
             <img className={style.aboutImage} src={profilePic}/>
             <div className={style.aboutText}>
                 <h2>About <span>Me:</span></h2>
-                <p data-aos="zoom-in" >I am a Fullstack Software Engineer from San Jose, CA. I consider myself a creative engineer who is efficient in delivering high-quality products. I am focused on the end-user and in providing the best possible experience when interacting with the UI. I work mostly with JavaScript, React and CSS, but I am also versed in back-end solutions and testing.</p>
+                <p data-aos="zoom-in" >I'm a Fullstack Software Engineer hailing from San Jose, CA. I thrive on creativity and efficiency, always aiming to deliver standout products. My passion lies in crafting stellar user experiences and intuitive UIs. While my main toolkit includes JavaScript, React, and CSS, I'm equally adept at back-end solutions and rigorous testing.</p>
                 <button 
                   onClick={downloadFile} 
                   download  
