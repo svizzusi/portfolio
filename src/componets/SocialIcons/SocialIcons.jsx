@@ -1,5 +1,6 @@
-import { FiLinkedin, FiTwitter } from 'react-icons/fi';
+import { FiLinkedin} from 'react-icons/fi';
 import { FaGithub } from 'react-icons/fa';
+import { FaEnvelope } from "react-icons/fa";
 import style from './SocialIcons.module.css'
 
 
@@ -13,7 +14,7 @@ const SocialIcons = () => {
                 <a href='https://github.com/svizzusi' target="_blank"><FaGithub className={style.social}/></a>
             </div>
             <div className={style.socialContainer} >
-                <a href='https://twitter.com/StephenVizzusi' target="_blank"><FiTwitter className={style.social}/></a>
+                <a href='mailto:svizzusi13@gmail.com'><FaEnvelope className={style.social}/></a>
             </div>
         </div>
     )
